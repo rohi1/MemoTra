@@ -7,23 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		133002BEC09EB825071BA5E4 /* Pods_MemoTra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DB18B1E53011634462FF834 /* Pods_MemoTra.framework */; };
 		6D49FB2E1DBF5B7F001B7252 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D49FB2D1DBF5B7F001B7252 /* AppDelegate.swift */; };
-		6D49FB301DBF5B7F001B7252 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D49FB2F1DBF5B7F001B7252 /* FirstViewController.swift */; };
-		6D49FB321DBF5B7F001B7252 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D49FB311DBF5B7F001B7252 /* SecondViewController.swift */; };
+		6D49FB301DBF5B7F001B7252 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D49FB2F1DBF5B7F001B7252 /* HomeViewController.swift */; };
+		6D49FB321DBF5B7F001B7252 /* ImageSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D49FB311DBF5B7F001B7252 /* ImageSelectViewController.swift */; };
 		6D49FB351DBF5B7F001B7252 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D49FB331DBF5B7F001B7252 /* Main.storyboard */; };
 		6D49FB371DBF5B7F001B7252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D49FB361DBF5B7F001B7252 /* Assets.xcassets */; };
 		6D49FB3A1DBF5B7F001B7252 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D49FB381DBF5B7F001B7252 /* LaunchScreen.storyboard */; };
+		6D49FB421DBF5D58001B7252 /* TagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D49FB411DBF5D58001B7252 /* TagViewController.swift */; };
+		6D49FB441DBF5EC3001B7252 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D49FB431DBF5EC3001B7252 /* PostViewController.swift */; };
+		6D51D4341DC432670069216C /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D51D4331DC432670069216C /* PostData.swift */; };
+		6DD32E901DC4A5BA0066E79F /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD32E8E1DC4A5BA0066E79F /* PostTableViewCell.swift */; };
+		6DD32E911DC4A5BA0066E79F /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DD32E8F1DC4A5BA0066E79F /* PostTableViewCell.xib */; };
+		6DFF721E1DBF858F00EFC371 /* AdobeCreativeSDKImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DFF721C1DBF858F00EFC371 /* AdobeCreativeSDKImage.framework */; };
+		6DFF721F1DBF85DE00EFC371 /* AdobeCreativeSDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DFF721B1DBF858F00EFC371 /* AdobeCreativeSDKCore.framework */; };
+		6DFF72201DBF85DE00EFC371 /* AdobeCreativeSDKCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DFF721B1DBF858F00EFC371 /* AdobeCreativeSDKCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6DFF72231DBF85E200EFC371 /* AdobeCreativeSDKImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DFF721C1DBF858F00EFC371 /* AdobeCreativeSDKImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6DFF72251DBF874E00EFC371 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DFF72241DBF874E00EFC371 /* libc++.tbd */; };
+		6DFF72271DBF875600EFC371 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DFF72261DBF875600EFC371 /* libz.tbd */; };
+		6DFF72291DBF876600EFC371 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DFF72281DBF876600EFC371 /* libz.1.2.5.tbd */; };
+		6DFF722B1DBF8CCE00EFC371 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DFF722A1DBF8CCE00EFC371 /* libsqlite3.0.tbd */; };
+		6DFF722D1DBF8CDC00EFC371 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DFF722C1DBF8CDC00EFC371 /* MobileCoreServices.framework */; };
+		6DFF722F1DBF8CEA00EFC371 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DFF722E1DBF8CEA00EFC371 /* SystemConfiguration.framework */; };
+		6DFF72311DBF8CF300EFC371 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DFF72301DBF8CF300EFC371 /* Accelerate.framework */; };
+		6DFF72331DBF8CFF00EFC371 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DFF72321DBF8CFF00EFC371 /* CoreData.framework */; };
+		6DFF72351DBF8D0900EFC371 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DFF72341DBF8D0900EFC371 /* MessageUI.framework */; };
+		6DFF72371DBF8D1400EFC371 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DFF72361DBF8D1400EFC371 /* OpenGLES.framework */; };
+		6DFF72391DBF8D1F00EFC371 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DFF72381DBF8D1F00EFC371 /* QuartzCore.framework */; };
+		6DFF723B1DBF8D2500EFC371 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DFF723A1DBF8D2500EFC371 /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6DFF72211DBF85DE00EFC371 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6DFF72231DBF85E200EFC371 /* AdobeCreativeSDKImage.framework in Embed Frameworks */,
+				6DFF72201DBF85DE00EFC371 /* AdobeCreativeSDKCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0E9066E61C0CD7A3854F909D /* Pods-MemoTra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoTra.release.xcconfig"; path = "Pods/Target Support Files/Pods-MemoTra/Pods-MemoTra.release.xcconfig"; sourceTree = "<group>"; };
+		219197662CD17B986263832A /* Pods-MemoTra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoTra.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MemoTra/Pods-MemoTra.debug.xcconfig"; sourceTree = "<group>"; };
+		5DB18B1E53011634462FF834 /* Pods_MemoTra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MemoTra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D49FB2A1DBF5B7F001B7252 /* MemoTra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoTra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D49FB2D1DBF5B7F001B7252 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6D49FB2F1DBF5B7F001B7252 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		6D49FB311DBF5B7F001B7252 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		6D49FB2F1DBF5B7F001B7252 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6D49FB311DBF5B7F001B7252 /* ImageSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectViewController.swift; sourceTree = "<group>"; };
 		6D49FB341DBF5B7F001B7252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6D49FB361DBF5B7F001B7252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D49FB391DBF5B7F001B7252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D49FB3B1DBF5B7F001B7252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D49FB411DBF5D58001B7252 /* TagViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagViewController.swift; sourceTree = "<group>"; };
+		6D49FB431DBF5EC3001B7252 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		6D51D4331DC432670069216C /* PostData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		6DD32E8E1DC4A5BA0066E79F /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		6DD32E8F1DC4A5BA0066E79F /* PostTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		6DFF721B1DBF858F00EFC371 /* AdobeCreativeSDKCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdobeCreativeSDKCore.framework; sourceTree = "<group>"; };
+		6DFF721C1DBF858F00EFC371 /* AdobeCreativeSDKImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdobeCreativeSDKImage.framework; sourceTree = "<group>"; };
+		6DFF72241DBF874E00EFC371 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		6DFF72261DBF875600EFC371 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		6DFF72281DBF876600EFC371 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		6DFF722A1DBF8CCE00EFC371 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		6DFF722C1DBF8CDC00EFC371 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		6DFF722E1DBF8CEA00EFC371 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6DFF72301DBF8CF300EFC371 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		6DFF72321DBF8CFF00EFC371 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6DFF72341DBF8D0900EFC371 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		6DFF72361DBF8D1400EFC371 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		6DFF72381DBF8D1F00EFC371 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6DFF723A1DBF8D2500EFC371 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		6DFF723E1DBFB9F200EFC371 /* MemoTra-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MemoTra-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +91,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DFF723B1DBF8D2500EFC371 /* StoreKit.framework in Frameworks */,
+				6DFF72391DBF8D1F00EFC371 /* QuartzCore.framework in Frameworks */,
+				6DFF72371DBF8D1400EFC371 /* OpenGLES.framework in Frameworks */,
+				6DFF72351DBF8D0900EFC371 /* MessageUI.framework in Frameworks */,
+				6DFF72331DBF8CFF00EFC371 /* CoreData.framework in Frameworks */,
+				6DFF72311DBF8CF300EFC371 /* Accelerate.framework in Frameworks */,
+				6DFF722F1DBF8CEA00EFC371 /* SystemConfiguration.framework in Frameworks */,
+				6DFF722D1DBF8CDC00EFC371 /* MobileCoreServices.framework in Frameworks */,
+				6DFF722B1DBF8CCE00EFC371 /* libsqlite3.0.tbd in Frameworks */,
+				6DFF72291DBF876600EFC371 /* libz.1.2.5.tbd in Frameworks */,
+				6DFF72271DBF875600EFC371 /* libz.tbd in Frameworks */,
+				6DFF72251DBF874E00EFC371 /* libc++.tbd in Frameworks */,
+				133002BEC09EB825071BA5E4 /* Pods_MemoTra.framework in Frameworks */,
+				6DFF721E1DBF858F00EFC371 /* AdobeCreativeSDKImage.framework in Frameworks */,
+				6DFF721F1DBF85DE00EFC371 /* AdobeCreativeSDKCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +117,8 @@
 			children = (
 				6D49FB2C1DBF5B7F001B7252 /* MemoTra */,
 				6D49FB2B1DBF5B7F001B7252 /* Products */,
+				8BB9EDCCF3F3F2957E28C830 /* Pods */,
+				6E1F1B8F79CE14B75D671628 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +134,51 @@
 			isa = PBXGroup;
 			children = (
 				6D49FB2D1DBF5B7F001B7252 /* AppDelegate.swift */,
-				6D49FB2F1DBF5B7F001B7252 /* FirstViewController.swift */,
-				6D49FB311DBF5B7F001B7252 /* SecondViewController.swift */,
+				6DFF723E1DBFB9F200EFC371 /* MemoTra-Bridging-Header.h */,
+				6D49FB2F1DBF5B7F001B7252 /* HomeViewController.swift */,
+				6D49FB311DBF5B7F001B7252 /* ImageSelectViewController.swift */,
+				6D51D4331DC432670069216C /* PostData.swift */,
+				6D49FB411DBF5D58001B7252 /* TagViewController.swift */,
+				6D49FB431DBF5EC3001B7252 /* PostViewController.swift */,
+				6DD32E8E1DC4A5BA0066E79F /* PostTableViewCell.swift */,
+				6DD32E8F1DC4A5BA0066E79F /* PostTableViewCell.xib */,
 				6D49FB331DBF5B7F001B7252 /* Main.storyboard */,
 				6D49FB361DBF5B7F001B7252 /* Assets.xcassets */,
 				6D49FB381DBF5B7F001B7252 /* LaunchScreen.storyboard */,
 				6D49FB3B1DBF5B7F001B7252 /* Info.plist */,
+				6DFF721B1DBF858F00EFC371 /* AdobeCreativeSDKCore.framework */,
+				6DFF721C1DBF858F00EFC371 /* AdobeCreativeSDKImage.framework */,
 			);
 			path = MemoTra;
+			sourceTree = "<group>";
+		};
+		6E1F1B8F79CE14B75D671628 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DFF723A1DBF8D2500EFC371 /* StoreKit.framework */,
+				6DFF72381DBF8D1F00EFC371 /* QuartzCore.framework */,
+				6DFF72361DBF8D1400EFC371 /* OpenGLES.framework */,
+				6DFF72341DBF8D0900EFC371 /* MessageUI.framework */,
+				6DFF72321DBF8CFF00EFC371 /* CoreData.framework */,
+				6DFF72301DBF8CF300EFC371 /* Accelerate.framework */,
+				6DFF722E1DBF8CEA00EFC371 /* SystemConfiguration.framework */,
+				6DFF722C1DBF8CDC00EFC371 /* MobileCoreServices.framework */,
+				6DFF722A1DBF8CCE00EFC371 /* libsqlite3.0.tbd */,
+				6DFF72281DBF876600EFC371 /* libz.1.2.5.tbd */,
+				6DFF72261DBF875600EFC371 /* libz.tbd */,
+				6DFF72241DBF874E00EFC371 /* libc++.tbd */,
+				5DB18B1E53011634462FF834 /* Pods_MemoTra.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BB9EDCCF3F3F2957E28C830 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				219197662CD17B986263832A /* Pods-MemoTra.debug.xcconfig */,
+				0E9066E61C0CD7A3854F909D /* Pods-MemoTra.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +188,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D49FB3E1DBF5B7F001B7252 /* Build configuration list for PBXNativeTarget "MemoTra" */;
 			buildPhases = (
+				0E100BB70BAE25C70768510E /* [CP] Check Pods Manifest.lock */,
 				6D49FB261DBF5B7F001B7252 /* Sources */,
 				6D49FB271DBF5B7F001B7252 /* Frameworks */,
 				6D49FB281DBF5B7F001B7252 /* Resources */,
+				0B2EAED839F66C3A6FB84706 /* [CP] Embed Pods Frameworks */,
+				0544F96EB115A8B0FD4262C6 /* [CP] Copy Pods Resources */,
+				6DFF72211DBF85DE00EFC371 /* Embed Frameworks */,
+				6DFF723C1DBF8D3F00EFC371 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -100,6 +219,7 @@
 					6D49FB291DBF5B7F001B7252 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = X48F94J384;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -130,19 +250,85 @@
 				6D49FB3A1DBF5B7F001B7252 /* LaunchScreen.storyboard in Resources */,
 				6D49FB371DBF5B7F001B7252 /* Assets.xcassets in Resources */,
 				6D49FB351DBF5B7F001B7252 /* Main.storyboard in Resources */,
+				6DD32E911DC4A5BA0066E79F /* PostTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0544F96EB115A8B0FD4262C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MemoTra/Pods-MemoTra-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0B2EAED839F66C3A6FB84706 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MemoTra/Pods-MemoTra-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0E100BB70BAE25C70768510E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6DFF723C1DBF8D3F00EFC371 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/AdobeCreativeSDKCore.framework/strip-frameworks.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6D49FB261DBF5B7F001B7252 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D49FB321DBF5B7F001B7252 /* SecondViewController.swift in Sources */,
+				6DD32E901DC4A5BA0066E79F /* PostTableViewCell.swift in Sources */,
+				6D49FB321DBF5B7F001B7252 /* ImageSelectViewController.swift in Sources */,
+				6D51D4341DC432670069216C /* PostData.swift in Sources */,
+				6D49FB421DBF5D58001B7252 /* TagViewController.swift in Sources */,
 				6D49FB2E1DBF5B7F001B7252 /* AppDelegate.swift in Sources */,
-				6D49FB301DBF5B7F001B7252 /* FirstViewController.swift in Sources */,
+				6D49FB301DBF5B7F001B7252 /* HomeViewController.swift in Sources */,
+				6D49FB441DBF5EC3001B7252 /* PostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,26 +447,38 @@
 		};
 		6D49FB3F1DBF5B7F001B7252 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 219197662CD17B986263832A /* Pods-MemoTra.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X48F94J384;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MemoTra",
+				);
 				INFOPLIST_FILE = MemoTra/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Hiroaki-Ito.MemoTra";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MemoTra/MemoTra-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		6D49FB401DBF5B7F001B7252 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E9066E61C0CD7A3854F909D /* Pods-MemoTra.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X48F94J384;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MemoTra",
+				);
 				INFOPLIST_FILE = MemoTra/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Hiroaki-Ito.MemoTra";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MemoTra/MemoTra-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -304,6 +502,7 @@
 				6D49FB401DBF5B7F001B7252 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
