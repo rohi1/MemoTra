@@ -10,7 +10,8 @@ class PostViewController: UIViewController {
     @IBOutlet weak var TagTextField: UITextField!
     @IBOutlet weak var Comment: UITextView!
     
-    let realm = try! Realm()
+    //let realm = RLMRealm.defaultRealm()
+    let realmDB = PostData()
     var Cell:PostData?
     
     
@@ -23,15 +24,30 @@ class PostViewController: UIViewController {
         Cell = PostData()
         
         // データをRealmに保存する
-        try! realm.write {
-            self.Cell?.title = self.TitleTextField.text!
-            self.Cell?.comment = self.Comment.text!
-            self.Cell?.category = self.TagTextField.text!
-            let data = UIImagePNGRepresentation(self.image)
-            self.Cell?.imageData = data as NSData?
-            self.realm.add(self.Cell!, update: true)
+        //try! realm.write {
+        //    self.Cell?.title = self.TitleTextField.text!
+        //    self.Cell?.comment = self.Comment.text!
+        //    self.Cell?.category = self.TagTextField.text!
+        //    let data = UIImagePNGRepresentation(self.image)
+        //    self.Cell?.imageData = data as NSData?
+        //   self.realm.add(self.Cell!, update: true)
+        //}
+    do {
+        let realm = try!Realm()
+        try realm.write {
+            realmDB.title = "hoge"
+            realm.add(self.realmDB)
         }
-         //HUDで投稿完了を表示する
+    } catch {
+    
+    }
+    
+        
+        
+        
+        
+        
+        //HUDで投稿完了を表示する
         SVProgressHUD.showSuccess(withStatus: "保存しました")
         
          //全てのモーダルを閉じる
