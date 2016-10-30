@@ -29,13 +29,13 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         
     }
     
-    override func viewDidAppear(_ animated:Bool) {
-        super.viewDidAppear(animated)
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         let realm = try! Realm()
         //let allPostData = realm.allObjects()
-        let allPostData = realm.objects(Postdata).map{$0}
+        let allPostData = realm.objects(PostData.self).map{$0}
         for PostData in allPostData {
-            postDataArray.append(PostData)
+            postArray.append(PostData)
         }
     tableView.reloadData()
     }

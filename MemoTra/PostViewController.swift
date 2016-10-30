@@ -35,17 +35,17 @@ class PostViewController: UIViewController {
     do {
         let realm = try!Realm()
         try realm.write {
-            realmDB.title = "hoge"
+            realmDB.title = self.TitleTextField.text!
+            realmDB.comment = self.Comment.text!
+            realmDB.category = self.TagTextField.text!
+            let data = UIImagePNGRepresentation(self.image)
+            realmDB.imageData = data as NSData?
+            
             realm.add(self.realmDB)
         }
     } catch {
     
     }
-    
-        
-        
-        
-        
         
         //HUDで投稿完了を表示する
         SVProgressHUD.showSuccess(withStatus: "保存しました")
