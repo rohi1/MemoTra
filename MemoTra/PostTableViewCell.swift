@@ -23,7 +23,7 @@ class PostTableViewCell: UITableViewCell {
     func setPostData(postData: PostData) {
         //self.postImageView.image = postData.imageData
         let image: UIImage? = UIImage(data: postData.imageData as! Data)
-        self.postImageView.image = image
+    self.postImageView.image = image
         self.TitleText.text = "\(postData.title)"
         self.CommentTextView.text = "\(postData.comment)"
         self.TagLabel.text = "\(postData.category)"

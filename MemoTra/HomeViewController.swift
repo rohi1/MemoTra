@@ -26,8 +26,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         let nib = UINib(nibName: "PostTableViewCell", bundle: nil)
         tableView.register(nib, forCellReuseIdentifier: "Cell")
         tableView.rowHeight = UITableViewAutomaticDimension
-        
-    }
+        }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -51,12 +50,19 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         return postArray.count
     }
     
-    // セルのテキストを追加
+    // 各セルの内容を返すメソッド
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: PostTableViewCell = PostTableViewCell(style: UITableViewCellStyle.subtitle, reuseIdentifier: "Cell")
-        
+        cell.setPostData(postData: postArray[indexPath.row])
         // Realmから取得した該当行のデータをcellに設定
         return cell
     }
-    
+    func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
+        // Auto Layoutを使ってセルの高さを動的に変更する
+        return UITableViewAutomaticDimension
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        // セルをタップされたら何もせずに選択状態を解除する
+        tableView.deselectRow(at: indexPath as IndexPath, animated: true)
+    }
 }

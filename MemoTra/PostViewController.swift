@@ -13,7 +13,7 @@ class PostViewController: UIViewController {
     //let realm = RLMRealm.defaultRealm()
     let realmDB = PostData()
     var Cell:PostData?
-    
+  
     
     //保存ボタンを押した時のメソッド
     @IBAction func SaveButton(_ sender: AnyObject) {
@@ -32,15 +32,15 @@ class PostViewController: UIViewController {
         //    self.Cell?.imageData = data as NSData?
         //   self.realm.add(self.Cell!, update: true)
         //}
-    do {
         let realm = try!Realm()
+        do {
+        //let realm = try!Realm()
         try realm.write {
             realmDB.title = self.TitleTextField.text!
             realmDB.comment = self.Comment.text!
             realmDB.category = self.TagTextField.text!
             let data = UIImagePNGRepresentation(self.image)
             realmDB.imageData = data as NSData?
-            
             realm.add(self.realmDB)
         }
     } catch {
@@ -64,11 +64,17 @@ class PostViewController: UIViewController {
     override func viewDidLoad() {
         imageView.image = image!
         super.viewDidLoad()
+        //背景をタップしたらdissmisskeyboadメソッドを呼ぶようにする
+        let tapGesture: UITapGestureRecognizer = UITapGestureRecognizer(target:self, action:#selector(dissmissKeyboad))
+        self.view.addGestureRecognizer(tapGesture)
+        
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-    
+    func dissmissKeyboad() {
+        view.endEditing(true)
+    }
     
 }
 
