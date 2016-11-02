@@ -1,0 +1,20 @@
+[
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Schema.swift",
+  "offset": 3517,
+  "remove": 1,
+  "text": "(f",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Schema.swift",
+  "offset": 3529,
+  "remove": 1,
+  "text": ": ",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Schema.swift",
+  "offset": 3850,
+  "remove": 9,
+  "text": "(to: ",
+ }
+]

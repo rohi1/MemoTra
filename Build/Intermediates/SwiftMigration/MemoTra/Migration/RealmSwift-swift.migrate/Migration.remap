@@ -1,0 +1,116 @@
+[
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Migration.swift",
+  "offset": 10338,
+  "text": "_ ",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Migration.swift",
+  "offset": 10346,
+  "remove": 3,
+  "text": " ",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Migration.swift",
+  "offset": 10368,
+  "remove": 3,
+  "text": " ",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Migration.swift",
+  "offset": 10469,
+  "remove": 6,
+  "text": "(at: ",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Migration.swift",
+  "offset": 11221,
+  "text": "_ ",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Migration.swift",
+  "offset": 12224,
+  "remove": 1,
+  "text": "(f",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Migration.swift",
+  "offset": 12227,
+  "remove": 14,
+  "text": ": ",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Migration.swift",
+  "offset": 13548,
+  "text": "_ ",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Migration.swift",
+  "offset": 13719,
+  "text": "to: ",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Migration.swift",
+  "offset": 13789,
+  "text": "to: ",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Migration.swift",
+  "offset": 14696,
+  "text": "_ ",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Migration.swift",
+  "offset": 14845,
+  "text": "to: ",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Migration.swift",
+  "offset": 15147,
+  "text": "_ ",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Migration.swift",
+  "offset": 15702,
+  "text": "_ ",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Migration.swift",
+  "offset": 15775,
+  "remove": 1,
+  "text": "(f",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Migration.swift",
+  "offset": 15787,
+  "remove": 1,
+  "text": ": ",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Migration.swift",
+  "offset": 16505,
+  "text": "_ ",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Migration.swift",
+  "offset": 16595,
+  "remove": 1,
+  "text": "(f",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Migration.swift",
+  "offset": 16603,
+  "remove": 1,
+  "text": ": ",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Migration.swift",
+  "offset": 16662,
+  "text": "file",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Migration.swift",
+  "offset": 16821,
+  "text": "_ ",
+ }
+]

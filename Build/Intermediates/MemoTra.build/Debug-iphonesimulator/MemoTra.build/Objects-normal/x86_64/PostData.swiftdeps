@@ -1,0 +1,311 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PostData"
+provides-nominal:
+- "C7MemoTra8PostData"
+provides-member:
+- ["C7MemoTra8PostData", ""]
+provides-dynamic-lookup:
+- "id"
+- "comment"
+- "primaryKey"
+- "imageData"
+- "category"
+- "title"
+- "date"
+depends-top-level:
+- "Object"
+- "PostData"
+- "StringLiteralType"
+- "String"
+- "NSData"
+- "IntegerLiteralType"
+- "NSDate"
+- "FloatLiteralType"
+depends-member:
+- ["Ps9AnyObject", "NSDate"]
+- ["Ps9AnyObject", "category"]
+- ["Ps9AnyObject", "comment"]
+- ["Ps9AnyObject", "date"]
+- ["Ps9AnyObject", "id"]
+- ["Ps9AnyObject", "imageData"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "primaryKey"]
+- ["Ps9AnyObject", "title"]
+- ["Ps9AnyObject", ""]
+- ["Ps7CVarArg", "NSDate"]
+- ["Ps7CVarArg", "category"]
+- ["Ps7CVarArg", "comment"]
+- ["Ps7CVarArg", "date"]
+- ["Ps7CVarArg", "id"]
+- ["Ps7CVarArg", "imageData"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "primaryKey"]
+- ["Ps7CVarArg", "title"]
+- ["Ps7CVarArg", ""]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "NSDate"]
+- ["Ps28CustomDebugStringConvertible", "category"]
+- ["Ps28CustomDebugStringConvertible", "comment"]
+- ["Ps28CustomDebugStringConvertible", "date"]
+- ["Ps28CustomDebugStringConvertible", "id"]
+- ["Ps28CustomDebugStringConvertible", "imageData"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "primaryKey"]
+- ["Ps28CustomDebugStringConvertible", "title"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "NSDate"]
+- ["Ps23CustomStringConvertible", "category"]
+- ["Ps23CustomStringConvertible", "comment"]
+- ["Ps23CustomStringConvertible", "date"]
+- ["Ps23CustomStringConvertible", "id"]
+- ["Ps23CustomStringConvertible", "imageData"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "primaryKey"]
+- ["Ps23CustomStringConvertible", "title"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "NSDate"]
+- ["Ps9Equatable", "category"]
+- ["Ps9Equatable", "comment"]
+- ["Ps9Equatable", "date"]
+- ["Ps9Equatable", "id"]
+- ["Ps9Equatable", "imageData"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "primaryKey"]
+- ["Ps9Equatable", "title"]
+- ["Ps9Equatable", ""]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "NSDate"]
+- ["Ps8Hashable", "category"]
+- ["Ps8Hashable", "comment"]
+- ["Ps8Hashable", "date"]
+- ["Ps8Hashable", "id"]
+- ["Ps8Hashable", "imageData"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "primaryKey"]
+- ["Ps8Hashable", "title"]
+- ["Ps8Hashable", ""]
+- ["Si", "deinit"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["P10RealmSwift10MinMaxType", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["CSo6NSDate", "deinit"]
+- ["CSo6NSDate", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "NSData"]
+- ["CSo8NSObject", "NSDate"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "category"]
+- ["CSo8NSObject", "comment"]
+- ["CSo8NSObject", "date"]
+- ["CSo8NSObject", "id"]
+- ["CSo8NSObject", "imageData"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "primaryKey"]
+- ["CSo8NSObject", "title"]
+- ["PSo16NSObjectProtocol", "NSDate"]
+- ["PSo16NSObjectProtocol", "category"]
+- ["PSo16NSObjectProtocol", "comment"]
+- ["PSo16NSObjectProtocol", "date"]
+- ["PSo16NSObjectProtocol", "id"]
+- ["PSo16NSObjectProtocol", "imageData"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "primaryKey"]
+- ["PSo16NSObjectProtocol", "title"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["C10RealmSwift6Object", "NSData"]
+- ["C10RealmSwift6Object", "NSDate"]
+- ["C10RealmSwift6Object", "String"]
+- ["C10RealmSwift6Object", "category"]
+- ["C10RealmSwift6Object", "comment"]
+- ["C10RealmSwift6Object", "date"]
+- ["C10RealmSwift6Object", "deinit"]
+- ["C10RealmSwift6Object", "id"]
+- ["C10RealmSwift6Object", "imageData"]
+- ["C10RealmSwift6Object", "init"]
+- ["C10RealmSwift6Object", "primaryKey"]
+- ["C10RealmSwift6Object", "title"]
+- ["C10RealmSwift6Object", ""]
+- ["Sq", "deinit"]
+- ["C7MemoTra8PostData", "NSData"]
+- ["C7MemoTra8PostData", "NSDate"]
+- ["C7MemoTra8PostData", "String"]
+- ["C7MemoTra8PostData", "category"]
+- ["C7MemoTra8PostData", "comment"]
+- ["C7MemoTra8PostData", "date"]
+- ["C7MemoTra8PostData", "deinit"]
+- ["C7MemoTra8PostData", "id"]
+- ["C7MemoTra8PostData", "imageData"]
+- ["C7MemoTra8PostData", "init"]
+- ["C7MemoTra8PostData", "primaryKey"]
+- ["C7MemoTra8PostData", "title"]
+- ["CSo13RLMObjectBase", "NSData"]
+- ["CSo13RLMObjectBase", "NSDate"]
+- ["CSo13RLMObjectBase", "String"]
+- ["CSo13RLMObjectBase", "category"]
+- ["CSo13RLMObjectBase", "comment"]
+- ["CSo13RLMObjectBase", "date"]
+- ["CSo13RLMObjectBase", "id"]
+- ["CSo13RLMObjectBase", "imageData"]
+- ["CSo13RLMObjectBase", "init"]
+- ["CSo13RLMObjectBase", "primaryKey"]
+- ["CSo13RLMObjectBase", "title"]
+- ["CSo15RLMObjectSchema", "deinit"]
+- ["CSo8RLMRealm", "deinit"]
+- ["CSo9RLMSchema", "deinit"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "NSDate"]
+- ["Ps9_Hashable", "category"]
+- ["Ps9_Hashable", "comment"]
+- ["Ps9_Hashable", "date"]
+- ["Ps9_Hashable", "id"]
+- ["Ps9_Hashable", "imageData"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "primaryKey"]
+- ["Ps9_Hashable", "title"]
+- ["Ps9_Hashable", ""]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "Si"
+- "Ps25LosslessStringConvertible"
+- "P10RealmSwift10MinMaxType"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "CSo6NSDate"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "C10RealmSwift6Object"
+- "Sq"
+- "C7MemoTra8PostData"
+- "CSo13RLMObjectBase"
+- "CSo15RLMObjectSchema"
+- "CSo8RLMRealm"
+- "CSo9RLMSchema"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/MemoTra-Bridging-Header.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeUXInAppPurchase.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeUXAuthManager.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeUXAuthDelegate.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeNetworkStatus.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeNetworkHTTPAsyncRequest.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeNetworkError.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeError.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeCreativeSDKVersion.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeAuthUserProfile.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeAuthError.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeCreativeSDKCore.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Modules/module.modulemap"
+- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeImageEditorLegacySDKCompatibility.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeImageEditorCustomization+Compatibility.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeUXImageEditorViewController+Compatibility.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeUXImageEditorViewController+InAppPurchase.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeImageEditorSession.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeImageEditorProduct.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeImageEditorCustomization.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeImageEditorContext.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeImageEditorOpenGLManager.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeUXImageEditorViewController.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeCreativeSDKImage.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Modules/module.modulemap"
+- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredential.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVRadialGradientLayer.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressAnimatedView.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Modules/module.modulemap"
+interface-hash: "6eca2505e8c7da4d16067e0d27cd699b"

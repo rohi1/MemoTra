@@ -1,0 +1,955 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PostViewController"
+provides-nominal:
+- "C7MemoTra18PostViewController"
+provides-member:
+- ["C7MemoTra18PostViewController", ""]
+provides-dynamic-lookup:
+- "imageView"
+- "Cell"
+- "TagTextField"
+- "dissmissKeyboad"
+- "image"
+- "viewDidLoad"
+- "realmDB"
+- "TitleTextField"
+- "SaveButton"
+- "didReceiveMemoryWarning"
+- "CancelButton"
+- "Comment"
+depends-top-level:
+- !private "Realm"
+- "PostViewController"
+- !private "SVProgressHUD"
+- !private "BooleanLiteralType"
+- !private "UITapGestureRecognizer"
+- "UITextField"
+- "UIImage"
+- !private "UIApplication"
+- !private "CastingPrecedence"
+- "AssignmentPrecedence"
+- "AnyObject"
+- "UIViewController"
+- "UIImageView"
+- "UITextView"
+- !private "NSDate"
+- !private "UIImagePNGRepresentation"
+- !private "NSData"
+- "PostData"
+depends-member:
+- ["Ps9AnyObject", "CancelButton"]
+- ["Ps9AnyObject", "Cell"]
+- ["Ps9AnyObject", "Comment"]
+- !private ["Ps9AnyObject", "NSDate"]
+- ["Ps9AnyObject", "PostData"]
+- !private ["Ps9AnyObject", "Realm"]
+- !private ["Ps9AnyObject", "SVProgressHUD"]
+- ["Ps9AnyObject", "SaveButton"]
+- ["Ps9AnyObject", "TagTextField"]
+- ["Ps9AnyObject", "TitleTextField"]
+- !private ["Ps9AnyObject", "UIApplication"]
+- !private ["Ps9AnyObject", "UIImagePNGRepresentation"]
+- !private ["Ps9AnyObject", "UITapGestureRecognizer"]
+- !private ["Ps9AnyObject", "add"]
+- !private ["Ps9AnyObject", "addGestureRecognizer"]
+- !private ["Ps9AnyObject", "category"]
+- !private ["Ps9AnyObject", "comment"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "dismiss"]
+- ["Ps9AnyObject", "dissmissKeyboad"]
+- !private ["Ps9AnyObject", "endEditing"]
+- ["Ps9AnyObject", "image"]
+- !private ["Ps9AnyObject", "imageData"]
+- ["Ps9AnyObject", "imageView"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "keyWindow"]
+- ["Ps9AnyObject", "realmDB"]
+- !private ["Ps9AnyObject", "rootViewController"]
+- !private ["Ps9AnyObject", "shared"]
+- !private ["Ps9AnyObject", "showSuccess"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "timeIntervalSinceReferenceDate"]
+- !private ["Ps9AnyObject", "title"]
+- !private ["Ps9AnyObject", "view"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- !private ["Ps9AnyObject", "write"]
+- ["Ps9AnyObject", ""]
+- ["Sb", "deinit"]
+- !private ["PSo15CALayerDelegate", "addGestureRecognizer"]
+- !private ["PSo15CALayerDelegate", "endEditing"]
+- !private ["PSo15CALayerDelegate", "image"]
+- !private ["PSo15CALayerDelegate", "rootViewController"]
+- !private ["PSo15CALayerDelegate", "showSuccess"]
+- !private ["PSo15CALayerDelegate", "text"]
+- ["Ps7CVarArg", "CancelButton"]
+- ["Ps7CVarArg", "Cell"]
+- ["Ps7CVarArg", "Comment"]
+- !private ["Ps7CVarArg", "NSDate"]
+- ["Ps7CVarArg", "PostData"]
+- !private ["Ps7CVarArg", "Realm"]
+- !private ["Ps7CVarArg", "SVProgressHUD"]
+- ["Ps7CVarArg", "SaveButton"]
+- ["Ps7CVarArg", "TagTextField"]
+- ["Ps7CVarArg", "TitleTextField"]
+- !private ["Ps7CVarArg", "UIApplication"]
+- !private ["Ps7CVarArg", "UIImagePNGRepresentation"]
+- !private ["Ps7CVarArg", "UITapGestureRecognizer"]
+- !private ["Ps7CVarArg", "addGestureRecognizer"]
+- !private ["Ps7CVarArg", "category"]
+- !private ["Ps7CVarArg", "comment"]
+- ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- !private ["Ps7CVarArg", "dismiss"]
+- ["Ps7CVarArg", "dissmissKeyboad"]
+- !private ["Ps7CVarArg", "endEditing"]
+- ["Ps7CVarArg", "image"]
+- !private ["Ps7CVarArg", "imageData"]
+- ["Ps7CVarArg", "imageView"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "keyWindow"]
+- ["Ps7CVarArg", "realmDB"]
+- !private ["Ps7CVarArg", "rootViewController"]
+- !private ["Ps7CVarArg", "shared"]
+- !private ["Ps7CVarArg", "showSuccess"]
+- !private ["Ps7CVarArg", "text"]
+- !private ["Ps7CVarArg", "timeIntervalSinceReferenceDate"]
+- !private ["Ps7CVarArg", "title"]
+- !private ["Ps7CVarArg", "view"]
+- ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "CancelButton"]
+- ["Ps28CustomDebugStringConvertible", "Cell"]
+- ["Ps28CustomDebugStringConvertible", "Comment"]
+- !private ["Ps28CustomDebugStringConvertible", "NSDate"]
+- ["Ps28CustomDebugStringConvertible", "PostData"]
+- !private ["Ps28CustomDebugStringConvertible", "Realm"]
+- !private ["Ps28CustomDebugStringConvertible", "SVProgressHUD"]
+- ["Ps28CustomDebugStringConvertible", "SaveButton"]
+- ["Ps28CustomDebugStringConvertible", "TagTextField"]
+- ["Ps28CustomDebugStringConvertible", "TitleTextField"]
+- !private ["Ps28CustomDebugStringConvertible", "UIApplication"]
+- !private ["Ps28CustomDebugStringConvertible", "UIImagePNGRepresentation"]
+- !private ["Ps28CustomDebugStringConvertible", "UITapGestureRecognizer"]
+- !private ["Ps28CustomDebugStringConvertible", "addGestureRecognizer"]
+- !private ["Ps28CustomDebugStringConvertible", "category"]
+- !private ["Ps28CustomDebugStringConvertible", "comment"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "dismiss"]
+- ["Ps28CustomDebugStringConvertible", "dissmissKeyboad"]
+- !private ["Ps28CustomDebugStringConvertible", "endEditing"]
+- ["Ps28CustomDebugStringConvertible", "image"]
+- !private ["Ps28CustomDebugStringConvertible", "imageData"]
+- ["Ps28CustomDebugStringConvertible", "imageView"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "keyWindow"]
+- ["Ps28CustomDebugStringConvertible", "realmDB"]
+- !private ["Ps28CustomDebugStringConvertible", "rootViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "shared"]
+- !private ["Ps28CustomDebugStringConvertible", "showSuccess"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps28CustomDebugStringConvertible", "timeIntervalSinceReferenceDate"]
+- !private ["Ps28CustomDebugStringConvertible", "title"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "timeIntervalSinceReferenceDate"]
+- !private ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "CancelButton"]
+- ["Ps23CustomStringConvertible", "Cell"]
+- ["Ps23CustomStringConvertible", "Comment"]
+- !private ["Ps23CustomStringConvertible", "NSDate"]
+- ["Ps23CustomStringConvertible", "PostData"]
+- !private ["Ps23CustomStringConvertible", "Realm"]
+- !private ["Ps23CustomStringConvertible", "SVProgressHUD"]
+- ["Ps23CustomStringConvertible", "SaveButton"]
+- ["Ps23CustomStringConvertible", "TagTextField"]
+- ["Ps23CustomStringConvertible", "TitleTextField"]
+- !private ["Ps23CustomStringConvertible", "UIApplication"]
+- !private ["Ps23CustomStringConvertible", "UIImagePNGRepresentation"]
+- !private ["Ps23CustomStringConvertible", "UITapGestureRecognizer"]
+- !private ["Ps23CustomStringConvertible", "addGestureRecognizer"]
+- !private ["Ps23CustomStringConvertible", "category"]
+- !private ["Ps23CustomStringConvertible", "comment"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps23CustomStringConvertible", "dismiss"]
+- ["Ps23CustomStringConvertible", "dissmissKeyboad"]
+- !private ["Ps23CustomStringConvertible", "endEditing"]
+- ["Ps23CustomStringConvertible", "image"]
+- !private ["Ps23CustomStringConvertible", "imageData"]
+- ["Ps23CustomStringConvertible", "imageView"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "keyWindow"]
+- ["Ps23CustomStringConvertible", "realmDB"]
+- !private ["Ps23CustomStringConvertible", "rootViewController"]
+- !private ["Ps23CustomStringConvertible", "shared"]
+- !private ["Ps23CustomStringConvertible", "showSuccess"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps23CustomStringConvertible", "timeIntervalSinceReferenceDate"]
+- !private ["Ps23CustomStringConvertible", "title"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Sd", "deinit"]
+- ["Ps9Equatable", "CancelButton"]
+- ["Ps9Equatable", "Cell"]
+- ["Ps9Equatable", "Comment"]
+- !private ["Ps9Equatable", "NSDate"]
+- ["Ps9Equatable", "PostData"]
+- !private ["Ps9Equatable", "Realm"]
+- !private ["Ps9Equatable", "SVProgressHUD"]
+- ["Ps9Equatable", "SaveButton"]
+- ["Ps9Equatable", "TagTextField"]
+- ["Ps9Equatable", "TitleTextField"]
+- !private ["Ps9Equatable", "UIApplication"]
+- !private ["Ps9Equatable", "UIImagePNGRepresentation"]
+- !private ["Ps9Equatable", "UITapGestureRecognizer"]
+- !private ["Ps9Equatable", "add"]
+- !private ["Ps9Equatable", "addGestureRecognizer"]
+- !private ["Ps9Equatable", "category"]
+- !private ["Ps9Equatable", "comment"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "dismiss"]
+- ["Ps9Equatable", "dissmissKeyboad"]
+- !private ["Ps9Equatable", "endEditing"]
+- ["Ps9Equatable", "image"]
+- !private ["Ps9Equatable", "imageData"]
+- ["Ps9Equatable", "imageView"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "keyWindow"]
+- ["Ps9Equatable", "realmDB"]
+- !private ["Ps9Equatable", "rootViewController"]
+- !private ["Ps9Equatable", "shared"]
+- !private ["Ps9Equatable", "showSuccess"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "timeIntervalSinceReferenceDate"]
+- !private ["Ps9Equatable", "title"]
+- !private ["Ps9Equatable", "view"]
+- ["Ps9Equatable", "viewDidLoad"]
+- !private ["Ps9Equatable", "write"]
+- ["Ps9Equatable", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "CancelButton"]
+- ["Ps8Hashable", "Cell"]
+- ["Ps8Hashable", "Comment"]
+- !private ["Ps8Hashable", "NSDate"]
+- ["Ps8Hashable", "PostData"]
+- !private ["Ps8Hashable", "Realm"]
+- !private ["Ps8Hashable", "SVProgressHUD"]
+- ["Ps8Hashable", "SaveButton"]
+- ["Ps8Hashable", "TagTextField"]
+- ["Ps8Hashable", "TitleTextField"]
+- !private ["Ps8Hashable", "UIApplication"]
+- !private ["Ps8Hashable", "UIImagePNGRepresentation"]
+- !private ["Ps8Hashable", "UITapGestureRecognizer"]
+- !private ["Ps8Hashable", "addGestureRecognizer"]
+- !private ["Ps8Hashable", "category"]
+- !private ["Ps8Hashable", "comment"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "dismiss"]
+- ["Ps8Hashable", "dissmissKeyboad"]
+- !private ["Ps8Hashable", "endEditing"]
+- ["Ps8Hashable", "image"]
+- !private ["Ps8Hashable", "imageData"]
+- ["Ps8Hashable", "imageView"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "keyWindow"]
+- ["Ps8Hashable", "realmDB"]
+- !private ["Ps8Hashable", "rootViewController"]
+- !private ["Ps8Hashable", "shared"]
+- !private ["Ps8Hashable", "showSuccess"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "timeIntervalSinceReferenceDate"]
+- !private ["Ps8Hashable", "title"]
+- !private ["Ps8Hashable", "view"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["P10RealmSwift10MinMaxType", "timeIntervalSinceReferenceDate"]
+- !private ["Ps10MirrorPath", "init"]
+- ["CSo7NSCoder", "deinit"]
+- ["PSo8NSCoding", "CancelButton"]
+- ["PSo8NSCoding", "Cell"]
+- ["PSo8NSCoding", "Comment"]
+- !private ["PSo8NSCoding", "NSDate"]
+- ["PSo8NSCoding", "PostData"]
+- !private ["PSo8NSCoding", "Realm"]
+- !private ["PSo8NSCoding", "SVProgressHUD"]
+- ["PSo8NSCoding", "SaveButton"]
+- ["PSo8NSCoding", "TagTextField"]
+- ["PSo8NSCoding", "TitleTextField"]
+- !private ["PSo8NSCoding", "UIApplication"]
+- !private ["PSo8NSCoding", "UIImagePNGRepresentation"]
+- !private ["PSo8NSCoding", "UITapGestureRecognizer"]
+- !private ["PSo8NSCoding", "addGestureRecognizer"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "dismiss"]
+- ["PSo8NSCoding", "dissmissKeyboad"]
+- !private ["PSo8NSCoding", "endEditing"]
+- ["PSo8NSCoding", "image"]
+- ["PSo8NSCoding", "imageView"]
+- !private ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "realmDB"]
+- !private ["PSo8NSCoding", "rootViewController"]
+- !private ["PSo8NSCoding", "showSuccess"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "timeIntervalSinceReferenceDate"]
+- !private ["PSo8NSCoding", "view"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "timeIntervalSinceReferenceDate"]
+- !private ["CSo6NSDate", "timeIntervalSinceReferenceDate"]
+- ["PSo26NSExtensionRequestHandling", "CancelButton"]
+- ["PSo26NSExtensionRequestHandling", "Cell"]
+- ["PSo26NSExtensionRequestHandling", "Comment"]
+- !private ["PSo26NSExtensionRequestHandling", "NSDate"]
+- ["PSo26NSExtensionRequestHandling", "PostData"]
+- !private ["PSo26NSExtensionRequestHandling", "Realm"]
+- !private ["PSo26NSExtensionRequestHandling", "SVProgressHUD"]
+- ["PSo26NSExtensionRequestHandling", "SaveButton"]
+- ["PSo26NSExtensionRequestHandling", "TagTextField"]
+- ["PSo26NSExtensionRequestHandling", "TitleTextField"]
+- !private ["PSo26NSExtensionRequestHandling", "UIApplication"]
+- !private ["PSo26NSExtensionRequestHandling", "UIImagePNGRepresentation"]
+- !private ["PSo26NSExtensionRequestHandling", "UITapGestureRecognizer"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "dismiss"]
+- ["PSo26NSExtensionRequestHandling", "dissmissKeyboad"]
+- ["PSo26NSExtensionRequestHandling", "image"]
+- ["PSo26NSExtensionRequestHandling", "imageView"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "realmDB"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "CancelButton"]
+- ["CSo8NSObject", "Cell"]
+- ["CSo8NSObject", "Comment"]
+- !private ["CSo8NSObject", "NSData"]
+- !private ["CSo8NSObject", "NSDate"]
+- ["CSo8NSObject", "PostData"]
+- !private ["CSo8NSObject", "Realm"]
+- !private ["CSo8NSObject", "SVProgressHUD"]
+- ["CSo8NSObject", "SaveButton"]
+- ["CSo8NSObject", "TagTextField"]
+- ["CSo8NSObject", "TitleTextField"]
+- !private ["CSo8NSObject", "UIApplication"]
+- ["CSo8NSObject", "UIImage"]
+- !private ["CSo8NSObject", "UIImagePNGRepresentation"]
+- ["CSo8NSObject", "UIImageView"]
+- !private ["CSo8NSObject", "UITapGestureRecognizer"]
+- ["CSo8NSObject", "UITextField"]
+- ["CSo8NSObject", "UITextView"]
+- !private ["CSo8NSObject", "addGestureRecognizer"]
+- !private ["CSo8NSObject", "category"]
+- !private ["CSo8NSObject", "comment"]
+- !private ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "dismiss"]
+- ["CSo8NSObject", "dissmissKeyboad"]
+- !private ["CSo8NSObject", "endEditing"]
+- ["CSo8NSObject", "image"]
+- !private ["CSo8NSObject", "imageData"]
+- ["CSo8NSObject", "imageView"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "keyWindow"]
+- ["CSo8NSObject", "realmDB"]
+- !private ["CSo8NSObject", "rootViewController"]
+- !private ["CSo8NSObject", "shared"]
+- !private ["CSo8NSObject", "showSuccess"]
+- !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "timeIntervalSinceReferenceDate"]
+- !private ["CSo8NSObject", "title"]
+- !private ["CSo8NSObject", "view"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "CancelButton"]
+- ["PSo16NSObjectProtocol", "Cell"]
+- ["PSo16NSObjectProtocol", "Comment"]
+- !private ["PSo16NSObjectProtocol", "NSDate"]
+- ["PSo16NSObjectProtocol", "PostData"]
+- !private ["PSo16NSObjectProtocol", "Realm"]
+- !private ["PSo16NSObjectProtocol", "SVProgressHUD"]
+- ["PSo16NSObjectProtocol", "SaveButton"]
+- ["PSo16NSObjectProtocol", "TagTextField"]
+- ["PSo16NSObjectProtocol", "TitleTextField"]
+- !private ["PSo16NSObjectProtocol", "UIApplication"]
+- !private ["PSo16NSObjectProtocol", "UIImagePNGRepresentation"]
+- !private ["PSo16NSObjectProtocol", "UITapGestureRecognizer"]
+- !private ["PSo16NSObjectProtocol", "addGestureRecognizer"]
+- !private ["PSo16NSObjectProtocol", "category"]
+- !private ["PSo16NSObjectProtocol", "comment"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "dismiss"]
+- ["PSo16NSObjectProtocol", "dissmissKeyboad"]
+- !private ["PSo16NSObjectProtocol", "endEditing"]
+- ["PSo16NSObjectProtocol", "image"]
+- !private ["PSo16NSObjectProtocol", "imageData"]
+- ["PSo16NSObjectProtocol", "imageView"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "keyWindow"]
+- ["PSo16NSObjectProtocol", "realmDB"]
+- !private ["PSo16NSObjectProtocol", "rootViewController"]
+- !private ["PSo16NSObjectProtocol", "shared"]
+- !private ["PSo16NSObjectProtocol", "showSuccess"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "timeIntervalSinceReferenceDate"]
+- !private ["PSo16NSObjectProtocol", "title"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "timeIntervalSinceReferenceDate"]
+- !private ["CSo8NSString", "init"]
+- !private ["C10RealmSwift6Object", "category"]
+- !private ["C10RealmSwift6Object", "comment"]
+- !private ["C10RealmSwift6Object", "deinit"]
+- !private ["C10RealmSwift6Object", "imageData"]
+- ["C10RealmSwift6Object", "init"]
+- !private ["C10RealmSwift6Object", "title"]
+- ["Sq", "deinit"]
+- !private ["C7MemoTra8PostData", "category"]
+- !private ["C7MemoTra8PostData", "comment"]
+- ["C7MemoTra8PostData", "deinit"]
+- !private ["C7MemoTra8PostData", "imageData"]
+- ["C7MemoTra8PostData", "init"]
+- !private ["C7MemoTra8PostData", "title"]
+- ["C7MemoTra18PostViewController", "AnyObject"]
+- ["C7MemoTra18PostViewController", "CancelButton"]
+- ["C7MemoTra18PostViewController", "Cell"]
+- ["C7MemoTra18PostViewController", "Comment"]
+- !private ["C7MemoTra18PostViewController", "NSData"]
+- !private ["C7MemoTra18PostViewController", "NSDate"]
+- ["C7MemoTra18PostViewController", "PostData"]
+- !private ["C7MemoTra18PostViewController", "Realm"]
+- !private ["C7MemoTra18PostViewController", "SVProgressHUD"]
+- ["C7MemoTra18PostViewController", "SaveButton"]
+- ["C7MemoTra18PostViewController", "TagTextField"]
+- ["C7MemoTra18PostViewController", "TitleTextField"]
+- !private ["C7MemoTra18PostViewController", "UIApplication"]
+- ["C7MemoTra18PostViewController", "UIImage"]
+- !private ["C7MemoTra18PostViewController", "UIImagePNGRepresentation"]
+- ["C7MemoTra18PostViewController", "UIImageView"]
+- !private ["C7MemoTra18PostViewController", "UITapGestureRecognizer"]
+- ["C7MemoTra18PostViewController", "UITextField"]
+- ["C7MemoTra18PostViewController", "UITextView"]
+- ["C7MemoTra18PostViewController", "deinit"]
+- ["C7MemoTra18PostViewController", "didReceiveMemoryWarning"]
+- !private ["C7MemoTra18PostViewController", "dismiss"]
+- ["C7MemoTra18PostViewController", "dissmissKeyboad"]
+- ["C7MemoTra18PostViewController", "image"]
+- ["C7MemoTra18PostViewController", "imageView"]
+- ["C7MemoTra18PostViewController", "init"]
+- ["C7MemoTra18PostViewController", "realmDB"]
+- !private ["C7MemoTra18PostViewController", "view"]
+- ["C7MemoTra18PostViewController", "viewDidLoad"]
+- !private ["CSo13RLMObjectBase", "category"]
+- !private ["CSo13RLMObjectBase", "comment"]
+- !private ["CSo13RLMObjectBase", "deinit"]
+- !private ["CSo13RLMObjectBase", "imageData"]
+- ["CSo13RLMObjectBase", "init"]
+- !private ["CSo13RLMObjectBase", "title"]
+- !private ["C10RealmSwift5Realm", "add"]
+- ["C10RealmSwift5Realm", "deinit"]
+- !private ["C10RealmSwift5Realm", "init"]
+- !private ["C10RealmSwift5Realm", "write"]
+- !private ["CSo13SVProgressHUD", "showSuccess"]
+- ["V10ObjectiveC8Selector", "deinit"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "addGestureRecognizer"]
+- !private ["PSo29UIAccessibilityIdentification", "endEditing"]
+- !private ["PSo29UIAccessibilityIdentification", "image"]
+- !private ["PSo29UIAccessibilityIdentification", "rootViewController"]
+- !private ["PSo29UIAccessibilityIdentification", "showSuccess"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "addGestureRecognizer"]
+- !private ["PSo12UIAppearance", "endEditing"]
+- !private ["PSo12UIAppearance", "image"]
+- !private ["PSo12UIAppearance", "rootViewController"]
+- !private ["PSo12UIAppearance", "showSuccess"]
+- !private ["PSo12UIAppearance", "text"]
+- ["PSo21UIAppearanceContainer", "CancelButton"]
+- ["PSo21UIAppearanceContainer", "Cell"]
+- ["PSo21UIAppearanceContainer", "Comment"]
+- !private ["PSo21UIAppearanceContainer", "NSDate"]
+- ["PSo21UIAppearanceContainer", "PostData"]
+- !private ["PSo21UIAppearanceContainer", "Realm"]
+- !private ["PSo21UIAppearanceContainer", "SVProgressHUD"]
+- ["PSo21UIAppearanceContainer", "SaveButton"]
+- ["PSo21UIAppearanceContainer", "TagTextField"]
+- ["PSo21UIAppearanceContainer", "TitleTextField"]
+- !private ["PSo21UIAppearanceContainer", "UIApplication"]
+- !private ["PSo21UIAppearanceContainer", "UIImagePNGRepresentation"]
+- !private ["PSo21UIAppearanceContainer", "UITapGestureRecognizer"]
+- !private ["PSo21UIAppearanceContainer", "addGestureRecognizer"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "dismiss"]
+- ["PSo21UIAppearanceContainer", "dissmissKeyboad"]
+- !private ["PSo21UIAppearanceContainer", "endEditing"]
+- ["PSo21UIAppearanceContainer", "image"]
+- ["PSo21UIAppearanceContainer", "imageView"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "realmDB"]
+- !private ["PSo21UIAppearanceContainer", "rootViewController"]
+- !private ["PSo21UIAppearanceContainer", "showSuccess"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- !private ["PSo21UIAppearanceContainer", "view"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["CSo13UIApplication", "deinit"]
+- !private ["CSo13UIApplication", "keyWindow"]
+- !private ["CSo13UIApplication", "shared"]
+- ["PSo18UIContentContainer", "CancelButton"]
+- ["PSo18UIContentContainer", "Cell"]
+- ["PSo18UIContentContainer", "Comment"]
+- !private ["PSo18UIContentContainer", "NSDate"]
+- ["PSo18UIContentContainer", "PostData"]
+- !private ["PSo18UIContentContainer", "Realm"]
+- !private ["PSo18UIContentContainer", "SVProgressHUD"]
+- ["PSo18UIContentContainer", "SaveButton"]
+- ["PSo18UIContentContainer", "TagTextField"]
+- ["PSo18UIContentContainer", "TitleTextField"]
+- !private ["PSo18UIContentContainer", "UIApplication"]
+- !private ["PSo18UIContentContainer", "UIImagePNGRepresentation"]
+- !private ["PSo18UIContentContainer", "UITapGestureRecognizer"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "dismiss"]
+- ["PSo18UIContentContainer", "dissmissKeyboad"]
+- ["PSo18UIContentContainer", "image"]
+- ["PSo18UIContentContainer", "imageView"]
+- !private ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "realmDB"]
+- !private ["PSo18UIContentContainer", "view"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["CSo9UIControl", "text"]
+- !private ["PSo17UICoordinateSpace", "addGestureRecognizer"]
+- !private ["PSo17UICoordinateSpace", "endEditing"]
+- !private ["PSo17UICoordinateSpace", "image"]
+- !private ["PSo17UICoordinateSpace", "rootViewController"]
+- !private ["PSo17UICoordinateSpace", "showSuccess"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "addGestureRecognizer"]
+- !private ["PSo13UIDynamicItem", "endEditing"]
+- !private ["PSo13UIDynamicItem", "image"]
+- !private ["PSo13UIDynamicItem", "rootViewController"]
+- !private ["PSo13UIDynamicItem", "showSuccess"]
+- !private ["PSo13UIDynamicItem", "text"]
+- ["PSo18UIFocusEnvironment", "CancelButton"]
+- ["PSo18UIFocusEnvironment", "Cell"]
+- ["PSo18UIFocusEnvironment", "Comment"]
+- !private ["PSo18UIFocusEnvironment", "NSDate"]
+- ["PSo18UIFocusEnvironment", "PostData"]
+- !private ["PSo18UIFocusEnvironment", "Realm"]
+- !private ["PSo18UIFocusEnvironment", "SVProgressHUD"]
+- ["PSo18UIFocusEnvironment", "SaveButton"]
+- ["PSo18UIFocusEnvironment", "TagTextField"]
+- ["PSo18UIFocusEnvironment", "TitleTextField"]
+- !private ["PSo18UIFocusEnvironment", "UIApplication"]
+- !private ["PSo18UIFocusEnvironment", "UIImagePNGRepresentation"]
+- !private ["PSo18UIFocusEnvironment", "UITapGestureRecognizer"]
+- !private ["PSo18UIFocusEnvironment", "addGestureRecognizer"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "dismiss"]
+- ["PSo18UIFocusEnvironment", "dissmissKeyboad"]
+- !private ["PSo18UIFocusEnvironment", "endEditing"]
+- ["PSo18UIFocusEnvironment", "image"]
+- ["PSo18UIFocusEnvironment", "imageView"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "realmDB"]
+- !private ["PSo18UIFocusEnvironment", "rootViewController"]
+- !private ["PSo18UIFocusEnvironment", "showSuccess"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "addGestureRecognizer"]
+- !private ["PSo11UIFocusItem", "endEditing"]
+- !private ["PSo11UIFocusItem", "image"]
+- !private ["PSo11UIFocusItem", "rootViewController"]
+- !private ["PSo11UIFocusItem", "showSuccess"]
+- !private ["PSo11UIFocusItem", "text"]
+- !private ["CSo19UIGestureRecognizer", "init"]
+- !private ["CSo11UIImageView", "image"]
+- !private ["PSo10UIKeyInput", "text"]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "CancelButton"]
+- ["CSo11UIResponder", "Cell"]
+- ["CSo11UIResponder", "Comment"]
+- !private ["CSo11UIResponder", "NSData"]
+- !private ["CSo11UIResponder", "NSDate"]
+- ["CSo11UIResponder", "PostData"]
+- !private ["CSo11UIResponder", "Realm"]
+- !private ["CSo11UIResponder", "SVProgressHUD"]
+- ["CSo11UIResponder", "SaveButton"]
+- ["CSo11UIResponder", "TagTextField"]
+- ["CSo11UIResponder", "TitleTextField"]
+- !private ["CSo11UIResponder", "UIApplication"]
+- ["CSo11UIResponder", "UIImage"]
+- !private ["CSo11UIResponder", "UIImagePNGRepresentation"]
+- ["CSo11UIResponder", "UIImageView"]
+- !private ["CSo11UIResponder", "UITapGestureRecognizer"]
+- ["CSo11UIResponder", "UITextField"]
+- ["CSo11UIResponder", "UITextView"]
+- !private ["CSo11UIResponder", "addGestureRecognizer"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- !private ["CSo11UIResponder", "dismiss"]
+- ["CSo11UIResponder", "dissmissKeyboad"]
+- !private ["CSo11UIResponder", "endEditing"]
+- ["CSo11UIResponder", "image"]
+- ["CSo11UIResponder", "imageView"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "keyWindow"]
+- ["CSo11UIResponder", "realmDB"]
+- !private ["CSo11UIResponder", "rootViewController"]
+- !private ["CSo11UIResponder", "shared"]
+- !private ["CSo11UIResponder", "showSuccess"]
+- !private ["CSo11UIResponder", "text"]
+- !private ["CSo11UIResponder", "view"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", "CancelButton"]
+- ["PSo30UIResponderStandardEditActions", "Cell"]
+- ["PSo30UIResponderStandardEditActions", "Comment"]
+- !private ["PSo30UIResponderStandardEditActions", "NSDate"]
+- ["PSo30UIResponderStandardEditActions", "PostData"]
+- !private ["PSo30UIResponderStandardEditActions", "Realm"]
+- !private ["PSo30UIResponderStandardEditActions", "SVProgressHUD"]
+- ["PSo30UIResponderStandardEditActions", "SaveButton"]
+- ["PSo30UIResponderStandardEditActions", "TagTextField"]
+- ["PSo30UIResponderStandardEditActions", "TitleTextField"]
+- !private ["PSo30UIResponderStandardEditActions", "UIApplication"]
+- !private ["PSo30UIResponderStandardEditActions", "UIImagePNGRepresentation"]
+- !private ["PSo30UIResponderStandardEditActions", "UITapGestureRecognizer"]
+- !private ["PSo30UIResponderStandardEditActions", "addGestureRecognizer"]
+- ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- !private ["PSo30UIResponderStandardEditActions", "dismiss"]
+- ["PSo30UIResponderStandardEditActions", "dissmissKeyboad"]
+- !private ["PSo30UIResponderStandardEditActions", "endEditing"]
+- ["PSo30UIResponderStandardEditActions", "image"]
+- ["PSo30UIResponderStandardEditActions", "imageView"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "keyWindow"]
+- ["PSo30UIResponderStandardEditActions", "realmDB"]
+- !private ["PSo30UIResponderStandardEditActions", "rootViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "shared"]
+- !private ["PSo30UIResponderStandardEditActions", "showSuccess"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- !private ["PSo30UIResponderStandardEditActions", "view"]
+- ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["CSo12UIScrollView", "text"]
+- ["PSo16UIStateRestoring", "CancelButton"]
+- ["PSo16UIStateRestoring", "Cell"]
+- ["PSo16UIStateRestoring", "Comment"]
+- !private ["PSo16UIStateRestoring", "NSDate"]
+- ["PSo16UIStateRestoring", "PostData"]
+- !private ["PSo16UIStateRestoring", "Realm"]
+- !private ["PSo16UIStateRestoring", "SVProgressHUD"]
+- ["PSo16UIStateRestoring", "SaveButton"]
+- ["PSo16UIStateRestoring", "TagTextField"]
+- ["PSo16UIStateRestoring", "TitleTextField"]
+- !private ["PSo16UIStateRestoring", "UIApplication"]
+- !private ["PSo16UIStateRestoring", "UIImagePNGRepresentation"]
+- !private ["PSo16UIStateRestoring", "UITapGestureRecognizer"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "dismiss"]
+- ["PSo16UIStateRestoring", "dissmissKeyboad"]
+- ["PSo16UIStateRestoring", "image"]
+- ["PSo16UIStateRestoring", "imageView"]
+- !private ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "realmDB"]
+- !private ["PSo16UIStateRestoring", "view"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- ["CSo22UITapGestureRecognizer", "deinit"]
+- !private ["CSo22UITapGestureRecognizer", "init"]
+- !private ["CSo11UITextField", "text"]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo17UITextInputTraits", "text"]
+- !private ["CSo10UITextView", "text"]
+- ["PSo18UITraitEnvironment", "CancelButton"]
+- ["PSo18UITraitEnvironment", "Cell"]
+- ["PSo18UITraitEnvironment", "Comment"]
+- !private ["PSo18UITraitEnvironment", "NSDate"]
+- ["PSo18UITraitEnvironment", "PostData"]
+- !private ["PSo18UITraitEnvironment", "Realm"]
+- !private ["PSo18UITraitEnvironment", "SVProgressHUD"]
+- ["PSo18UITraitEnvironment", "SaveButton"]
+- ["PSo18UITraitEnvironment", "TagTextField"]
+- ["PSo18UITraitEnvironment", "TitleTextField"]
+- !private ["PSo18UITraitEnvironment", "UIApplication"]
+- !private ["PSo18UITraitEnvironment", "UIImagePNGRepresentation"]
+- !private ["PSo18UITraitEnvironment", "UITapGestureRecognizer"]
+- !private ["PSo18UITraitEnvironment", "addGestureRecognizer"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "dismiss"]
+- ["PSo18UITraitEnvironment", "dissmissKeyboad"]
+- !private ["PSo18UITraitEnvironment", "endEditing"]
+- ["PSo18UITraitEnvironment", "image"]
+- ["PSo18UITraitEnvironment", "imageView"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "realmDB"]
+- !private ["PSo18UITraitEnvironment", "rootViewController"]
+- !private ["PSo18UITraitEnvironment", "showSuccess"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- !private ["PSo18UITraitEnvironment", "view"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "addGestureRecognizer"]
+- !private ["CSo6UIView", "endEditing"]
+- !private ["CSo6UIView", "image"]
+- !private ["CSo6UIView", "rootViewController"]
+- !private ["CSo6UIView", "showSuccess"]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "CancelButton"]
+- ["CSo16UIViewController", "Cell"]
+- ["CSo16UIViewController", "Comment"]
+- !private ["CSo16UIViewController", "NSData"]
+- !private ["CSo16UIViewController", "NSDate"]
+- ["CSo16UIViewController", "PostData"]
+- !private ["CSo16UIViewController", "Realm"]
+- !private ["CSo16UIViewController", "SVProgressHUD"]
+- ["CSo16UIViewController", "SaveButton"]
+- ["CSo16UIViewController", "TagTextField"]
+- ["CSo16UIViewController", "TitleTextField"]
+- !private ["CSo16UIViewController", "UIApplication"]
+- ["CSo16UIViewController", "UIImage"]
+- !private ["CSo16UIViewController", "UIImagePNGRepresentation"]
+- ["CSo16UIViewController", "UIImageView"]
+- !private ["CSo16UIViewController", "UITapGestureRecognizer"]
+- ["CSo16UIViewController", "UITextField"]
+- ["CSo16UIViewController", "UITextView"]
+- ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- !private ["CSo16UIViewController", "dismiss"]
+- ["CSo16UIViewController", "dissmissKeyboad"]
+- ["CSo16UIViewController", "image"]
+- ["CSo16UIViewController", "imageView"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "realmDB"]
+- !private ["CSo16UIViewController", "view"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- ["CSo8UIWindow", "deinit"]
+- !private ["CSo8UIWindow", "rootViewController"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "addGestureRecognizer"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "endEditing"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "image"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "rootViewController"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "showSuccess"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "timeIntervalSinceReferenceDate"]
+- ["Ps9_Hashable", "CancelButton"]
+- ["Ps9_Hashable", "Cell"]
+- ["Ps9_Hashable", "Comment"]
+- !private ["Ps9_Hashable", "NSDate"]
+- ["Ps9_Hashable", "PostData"]
+- !private ["Ps9_Hashable", "Realm"]
+- !private ["Ps9_Hashable", "SVProgressHUD"]
+- ["Ps9_Hashable", "SaveButton"]
+- ["Ps9_Hashable", "TagTextField"]
+- ["Ps9_Hashable", "TitleTextField"]
+- !private ["Ps9_Hashable", "UIApplication"]
+- !private ["Ps9_Hashable", "UIImagePNGRepresentation"]
+- !private ["Ps9_Hashable", "UITapGestureRecognizer"]
+- !private ["Ps9_Hashable", "addGestureRecognizer"]
+- !private ["Ps9_Hashable", "category"]
+- !private ["Ps9_Hashable", "comment"]
+- ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps9_Hashable", "dismiss"]
+- ["Ps9_Hashable", "dissmissKeyboad"]
+- !private ["Ps9_Hashable", "endEditing"]
+- ["Ps9_Hashable", "image"]
+- !private ["Ps9_Hashable", "imageData"]
+- ["Ps9_Hashable", "imageView"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "keyWindow"]
+- ["Ps9_Hashable", "realmDB"]
+- !private ["Ps9_Hashable", "rootViewController"]
+- !private ["Ps9_Hashable", "shared"]
+- !private ["Ps9_Hashable", "showSuccess"]
+- !private ["Ps9_Hashable", "text"]
+- !private ["Ps9_Hashable", "timeIntervalSinceReferenceDate"]
+- !private ["Ps9_Hashable", "title"]
+- !private ["Ps9_Hashable", "view"]
+- ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Sd"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "SQ"
+- !private "Ps25LosslessStringConvertible"
+- !private "P10RealmSwift10MinMaxType"
+- !private "Ps10MirrorPath"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo6NSDate"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "C10RealmSwift6Object"
+- "Sq"
+- "C7MemoTra8PostData"
+- "C7MemoTra18PostViewController"
+- "CSo13RLMObjectBase"
+- "C10RealmSwift5Realm"
+- !private "CSo13SVProgressHUD"
+- "V10ObjectiveC8Selector"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "CSo13UIApplication"
+- "PSo18UIContentContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo19UIGestureRecognizer"
+- !private "CSo11UIImageView"
+- !private "PSo10UIKeyInput"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- !private "CSo12UIScrollView"
+- "PSo16UIStateRestoring"
+- "CSo22UITapGestureRecognizer"
+- !private "CSo11UITextField"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- !private "CSo10UITextView"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- "CSo8UIWindow"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/MemoTra-Bridging-Header.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeUXInAppPurchase.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeUXAuthManager.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeUXAuthDelegate.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeNetworkStatus.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeNetworkHTTPAsyncRequest.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeNetworkError.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeError.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeCreativeSDKVersion.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeAuthUserProfile.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeAuthError.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeCreativeSDKCore.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Modules/module.modulemap"
+- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeImageEditorLegacySDKCompatibility.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeImageEditorCustomization+Compatibility.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeUXImageEditorViewController+Compatibility.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeUXImageEditorViewController+InAppPurchase.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeImageEditorSession.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeImageEditorProduct.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeImageEditorCustomization.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeImageEditorContext.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeImageEditorOpenGLManager.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeUXImageEditorViewController.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeCreativeSDKImage.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Modules/module.modulemap"
+- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncCredential.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Modules/module.modulemap"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVRadialGradientLayer.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressAnimatedView.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Modules/module.modulemap"
+interface-hash: "19bf31ad37290c07db50c87eb15e5d0d"

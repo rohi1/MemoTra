@@ -1,0 +1,13 @@
+[
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/SortDescriptor.swift",
+  "offset": 5962,
+  "text": "ExpressibleBy",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/SortDescriptor.swift",
+  "offset": 5974,
+  "remove": 12,
+  "text": "l",
+ }
+]

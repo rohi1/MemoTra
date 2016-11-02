@@ -1,0 +1,9 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "d5ccddca6e8bb687266248c7aad5dd9b"
+build_time: [530712044, 392798000]
+inputs:
+  "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/ImageSelectViewController.swift": [530711971, 0]
+  "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/TagViewController.swift": [530703949, 0]
+  "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AppDelegate.swift": [530711964, 0]
+  "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/HomeViewController.swift": [530711971, 0]
+  "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/PostViewController.swift": [530703330, 0]

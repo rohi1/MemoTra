@@ -1,0 +1,141 @@
+[
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Util.swift",
+  "offset": 831,
+  "text": "_ ",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Util.swift",
+  "offset": 4237,
+  "text": "_ ",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Util.swift",
+  "offset": 4416,
+  "text": "_ ",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Util.swift",
+  "offset": 4590,
+  "text": "_ ",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Util.swift",
+  "offset": 4662,
+  "text": "?",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Util.swift",
+  "offset": 4797,
+  "remove": 5,
+  "text": "(",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Util.swift",
+  "offset": 4804,
+  "remove": 2,
+  "text": ": ",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Util.swift",
+  "offset": 5296,
+  "text": "to: ",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Util.swift",
+  "offset": 6097,
+  "remove": 11,
+  "text": "e",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Util.swift",
+  "offset": 6247,
+  "remove": 11,
+  "text": "e",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Util.swift",
+  "offset": 6321,
+  "remove": 4,
+  "text": "int8",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Util.swift",
+  "offset": 6392,
+  "remove": 4,
+  "text": "value",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Util.swift",
+  "offset": 6402,
+  "text": " as Int8",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Util.swift",
+  "offset": 6491,
+  "remove": 11,
+  "text": "e",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Util.swift",
+  "offset": 6566,
+  "remove": 5,
+  "text": "int16",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Util.swift",
+  "offset": 6638,
+  "remove": 5,
+  "text": "value",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Util.swift",
+  "offset": 6649,
+  "text": " as Int16",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Util.swift",
+  "offset": 6738,
+  "remove": 11,
+  "text": "e",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Util.swift",
+  "offset": 6816,
+  "text": "32",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Util.swift",
+  "offset": 6883,
+  "remove": 3,
+  "text": "value",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Util.swift",
+  "offset": 6892,
+  "text": " as Int32",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Util.swift",
+  "offset": 6981,
+  "remove": 11,
+  "text": "e",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Util.swift",
+  "offset": 7056,
+  "remove": 8,
+  "text": "int64",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Util.swift",
+  "offset": 7131,
+  "remove": 8,
+  "text": "value",
+ },
+ {
+  "file": "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Util.swift",
+  "offset": 7145,
+  "text": " as Int64",
+ }
+]

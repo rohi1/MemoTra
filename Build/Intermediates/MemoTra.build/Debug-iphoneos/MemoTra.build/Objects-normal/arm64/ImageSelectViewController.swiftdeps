@@ -1,0 +1,902 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ImageSelectViewController"
+provides-nominal:
+- "C7MemoTra25ImageSelectViewController"
+provides-member:
+- ["C7MemoTra25ImageSelectViewController", ""]
+provides-dynamic-lookup:
+- "LibraryButton"
+- "CameraButton"
+- "viewDidLoad"
+- "imagePickerControllerDidCancel"
+- "photoEditorCanceled"
+- "imagePickerController"
+- "photoEditor"
+- "didReceiveMemoryWarning"
+depends-top-level:
+- !private "UIImagePickerControllerSourceType"
+- !private "PostViewController"
+- "UIViewController"
+- "UIImagePickerControllerDelegate"
+- "UINavigationControllerDelegate"
+- "AdobeUXImageEditorViewControllerDelegate"
+- !private "DispatchQueue"
+- !private "UIImagePickerControllerOriginalImage"
+- !private "BooleanLiteralType"
+- "AdobeUXImageEditorViewController"
+- "String"
+- "AnyObject"
+- !private "!="
+- "CastingPrecedence"
+- "AssignmentPrecedence"
+- "UIImage"
+- "UIImagePickerController"
+- !private "StringLiteralType"
+- "ImageSelectViewController"
+depends-member:
+- ["CSo32AdobeUXImageEditorViewController", "deinit"]
+- !private ["CSo32AdobeUXImageEditorViewController", "delegate"]
+- !private ["CSo32AdobeUXImageEditorViewController", "dismiss"]
+- !private ["CSo32AdobeUXImageEditorViewController", "init"]
+- !private ["PSo40AdobeUXImageEditorViewControllerDelegate", "AdobeUXImageEditorViewController"]
+- !private ["PSo40AdobeUXImageEditorViewControllerDelegate", "DispatchQueue"]
+- !private ["PSo40AdobeUXImageEditorViewControllerDelegate", "UIImagePickerController"]
+- !private ["PSo40AdobeUXImageEditorViewControllerDelegate", "UIImagePickerControllerOriginalImage"]
+- !private ["PSo40AdobeUXImageEditorViewControllerDelegate", "UIImagePickerControllerSourceType"]
+- ["PSo40AdobeUXImageEditorViewControllerDelegate", "imagePickerController"]
+- ["PSo40AdobeUXImageEditorViewControllerDelegate", "imagePickerControllerDidCancel"]
+- ["PSo40AdobeUXImageEditorViewControllerDelegate", "navigationController"]
+- ["PSo40AdobeUXImageEditorViewControllerDelegate", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo40AdobeUXImageEditorViewControllerDelegate", "navigationControllerSupportedInterfaceOrientations"]
+- ["PSo40AdobeUXImageEditorViewControllerDelegate", "photoEditor"]
+- ["PSo40AdobeUXImageEditorViewControllerDelegate", "photoEditorCanceled"]
+- !private ["PSo40AdobeUXImageEditorViewControllerDelegate", "present"]
+- !private ["PSo40AdobeUXImageEditorViewControllerDelegate", "storyboard"]
+- ["PSo40AdobeUXImageEditorViewControllerDelegate", ""]
+- !private ["Ps9AnyObject", "AdobeUXImageEditorViewController"]
+- ["Ps9AnyObject", "CameraButton"]
+- !private ["Ps9AnyObject", "DispatchQueue"]
+- ["Ps9AnyObject", "LibraryButton"]
+- !private ["Ps9AnyObject", "UIImagePickerController"]
+- !private ["Ps9AnyObject", "UIImagePickerControllerOriginalImage"]
+- !private ["Ps9AnyObject", "UIImagePickerControllerSourceType"]
+- !private ["Ps9AnyObject", "async"]
+- !private ["Ps9AnyObject", "delegate"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "dismiss"]
+- !private ["Ps9AnyObject", "image"]
+- ["Ps9AnyObject", "imagePickerController"]
+- ["Ps9AnyObject", "imagePickerControllerDidCancel"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "instantiateViewController"]
+- !private ["Ps9AnyObject", "isSourceTypeAvailable"]
+- !private ["Ps9AnyObject", "main"]
+- ["Ps9AnyObject", "navigationController"]
+- ["Ps9AnyObject", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps9AnyObject", "navigationControllerSupportedInterfaceOrientations"]
+- ["Ps9AnyObject", "photoEditor"]
+- ["Ps9AnyObject", "photoEditorCanceled"]
+- !private ["Ps9AnyObject", "present"]
+- !private ["Ps9AnyObject", "sourceType"]
+- !private ["Ps9AnyObject", "storyboard"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "AdobeUXImageEditorViewController"]
+- ["Ps7CVarArg", "CameraButton"]
+- !private ["Ps7CVarArg", "DispatchQueue"]
+- !private ["Ps7CVarArg", "Index"]
+- ["Ps7CVarArg", "LibraryButton"]
+- !private ["Ps7CVarArg", "SubSequence"]
+- !private ["Ps7CVarArg", "UIImagePickerController"]
+- !private ["Ps7CVarArg", "UIImagePickerControllerOriginalImage"]
+- !private ["Ps7CVarArg", "UIImagePickerControllerSourceType"]
+- !private ["Ps7CVarArg", "async"]
+- !private ["Ps7CVarArg", "delegate"]
+- ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- !private ["Ps7CVarArg", "dismiss"]
+- !private ["Ps7CVarArg", "image"]
+- ["Ps7CVarArg", "imagePickerController"]
+- ["Ps7CVarArg", "imagePickerControllerDidCancel"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "instantiateViewController"]
+- !private ["Ps7CVarArg", "isSourceTypeAvailable"]
+- !private ["Ps7CVarArg", "main"]
+- ["Ps7CVarArg", "navigationController"]
+- ["Ps7CVarArg", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps7CVarArg", "navigationControllerSupportedInterfaceOrientations"]
+- ["Ps7CVarArg", "photoEditor"]
+- ["Ps7CVarArg", "photoEditorCanceled"]
+- !private ["Ps7CVarArg", "present"]
+- !private ["Ps7CVarArg", "sourceType"]
+- !private ["Ps7CVarArg", "storyboard"]
+- !private ["Ps7CVarArg", "subscript"]
+- ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "Index"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "SubSequence"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "AdobeUXImageEditorViewController"]
+- ["Ps28CustomDebugStringConvertible", "CameraButton"]
+- !private ["Ps28CustomDebugStringConvertible", "DispatchQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- ["Ps28CustomDebugStringConvertible", "LibraryButton"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "UIImagePickerController"]
+- !private ["Ps28CustomDebugStringConvertible", "UIImagePickerControllerOriginalImage"]
+- !private ["Ps28CustomDebugStringConvertible", "UIImagePickerControllerSourceType"]
+- !private ["Ps28CustomDebugStringConvertible", "async"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "dismiss"]
+- !private ["Ps28CustomDebugStringConvertible", "image"]
+- ["Ps28CustomDebugStringConvertible", "imagePickerController"]
+- ["Ps28CustomDebugStringConvertible", "imagePickerControllerDidCancel"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "instantiateViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "isSourceTypeAvailable"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- ["Ps28CustomDebugStringConvertible", "navigationController"]
+- ["Ps28CustomDebugStringConvertible", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps28CustomDebugStringConvertible", "navigationControllerSupportedInterfaceOrientations"]
+- ["Ps28CustomDebugStringConvertible", "photoEditor"]
+- ["Ps28CustomDebugStringConvertible", "photoEditorCanceled"]
+- !private ["Ps28CustomDebugStringConvertible", "present"]
+- !private ["Ps28CustomDebugStringConvertible", "sourceType"]
+- !private ["Ps28CustomDebugStringConvertible", "storyboard"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Index"]
+- !private ["Ps17CustomReflectable", "SubSequence"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "AdobeUXImageEditorViewController"]
+- ["Ps23CustomStringConvertible", "CameraButton"]
+- !private ["Ps23CustomStringConvertible", "DispatchQueue"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- ["Ps23CustomStringConvertible", "LibraryButton"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "UIImagePickerController"]
+- !private ["Ps23CustomStringConvertible", "UIImagePickerControllerOriginalImage"]
+- !private ["Ps23CustomStringConvertible", "UIImagePickerControllerSourceType"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "async"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps23CustomStringConvertible", "dismiss"]
+- !private ["Ps23CustomStringConvertible", "image"]
+- ["Ps23CustomStringConvertible", "imagePickerController"]
+- ["Ps23CustomStringConvertible", "imagePickerControllerDidCancel"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "instantiateViewController"]
+- !private ["Ps23CustomStringConvertible", "isSourceTypeAvailable"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- ["Ps23CustomStringConvertible", "navigationController"]
+- ["Ps23CustomStringConvertible", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps23CustomStringConvertible", "navigationControllerSupportedInterfaceOrientations"]
+- ["Ps23CustomStringConvertible", "photoEditor"]
+- ["Ps23CustomStringConvertible", "photoEditorCanceled"]
+- !private ["Ps23CustomStringConvertible", "present"]
+- !private ["Ps23CustomStringConvertible", "sourceType"]
+- !private ["Ps23CustomStringConvertible", "storyboard"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "Index"]
+- !private ["Vs10Dictionary", "SubSequence"]
+- ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["CSo14DispatchObject", "async"]
+- !private ["CSo14DispatchObject", "main"]
+- !private ["CSo13DispatchQueue", "async"]
+- ["CSo13DispatchQueue", "deinit"]
+- !private ["CSo13DispatchQueue", "main"]
+- !private ["Ps9Equatable", "AdobeUXImageEditorViewController"]
+- ["Ps9Equatable", "CameraButton"]
+- !private ["Ps9Equatable", "DispatchQueue"]
+- ["Ps9Equatable", "LibraryButton"]
+- !private ["Ps9Equatable", "UIImagePickerController"]
+- !private ["Ps9Equatable", "UIImagePickerControllerOriginalImage"]
+- !private ["Ps9Equatable", "UIImagePickerControllerSourceType"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "async"]
+- !private ["Ps9Equatable", "camera"]
+- !private ["Ps9Equatable", "delegate"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "dismiss"]
+- !private ["Ps9Equatable", "image"]
+- ["Ps9Equatable", "imagePickerController"]
+- ["Ps9Equatable", "imagePickerControllerDidCancel"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "instantiateViewController"]
+- !private ["Ps9Equatable", "isSourceTypeAvailable"]
+- !private ["Ps9Equatable", "main"]
+- ["Ps9Equatable", "navigationController"]
+- ["Ps9Equatable", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps9Equatable", "navigationControllerSupportedInterfaceOrientations"]
+- ["Ps9Equatable", "photoEditor"]
+- ["Ps9Equatable", "photoEditorCanceled"]
+- !private ["Ps9Equatable", "photoLibrary"]
+- !private ["Ps9Equatable", "present"]
+- !private ["Ps9Equatable", "sourceType"]
+- !private ["Ps9Equatable", "storyboard"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Index"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "SubSequence"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "AdobeUXImageEditorViewController"]
+- ["Ps8Hashable", "CameraButton"]
+- !private ["Ps8Hashable", "DispatchQueue"]
+- ["Ps8Hashable", "LibraryButton"]
+- !private ["Ps8Hashable", "UIImagePickerController"]
+- !private ["Ps8Hashable", "UIImagePickerControllerOriginalImage"]
+- !private ["Ps8Hashable", "UIImagePickerControllerSourceType"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "async"]
+- !private ["Ps8Hashable", "camera"]
+- !private ["Ps8Hashable", "delegate"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "dismiss"]
+- !private ["Ps8Hashable", "image"]
+- ["Ps8Hashable", "imagePickerController"]
+- ["Ps8Hashable", "imagePickerControllerDidCancel"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "instantiateViewController"]
+- !private ["Ps8Hashable", "isSourceTypeAvailable"]
+- !private ["Ps8Hashable", "main"]
+- ["Ps8Hashable", "navigationController"]
+- ["Ps8Hashable", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps8Hashable", "navigationControllerSupportedInterfaceOrientations"]
+- ["Ps8Hashable", "photoEditor"]
+- ["Ps8Hashable", "photoEditorCanceled"]
+- !private ["Ps8Hashable", "photoLibrary"]
+- !private ["Ps8Hashable", "present"]
+- !private ["Ps8Hashable", "sourceType"]
+- !private ["Ps8Hashable", "storyboard"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- ["C7MemoTra25ImageSelectViewController", "AdobeUXImageEditorViewController"]
+- ["C7MemoTra25ImageSelectViewController", "AnyObject"]
+- ["C7MemoTra25ImageSelectViewController", "CameraButton"]
+- !private ["C7MemoTra25ImageSelectViewController", "DispatchQueue"]
+- ["C7MemoTra25ImageSelectViewController", "LibraryButton"]
+- !private ["C7MemoTra25ImageSelectViewController", "PostViewController"]
+- ["C7MemoTra25ImageSelectViewController", "String"]
+- ["C7MemoTra25ImageSelectViewController", "UIImage"]
+- ["C7MemoTra25ImageSelectViewController", "UIImagePickerController"]
+- !private ["C7MemoTra25ImageSelectViewController", "UIImagePickerControllerOriginalImage"]
+- !private ["C7MemoTra25ImageSelectViewController", "UIImagePickerControllerSourceType"]
+- ["C7MemoTra25ImageSelectViewController", "deinit"]
+- ["C7MemoTra25ImageSelectViewController", "didReceiveMemoryWarning"]
+- ["C7MemoTra25ImageSelectViewController", "imagePickerController"]
+- ["C7MemoTra25ImageSelectViewController", "imagePickerControllerDidCancel"]
+- ["C7MemoTra25ImageSelectViewController", "init"]
+- ["C7MemoTra25ImageSelectViewController", "navigationController"]
+- ["C7MemoTra25ImageSelectViewController", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["C7MemoTra25ImageSelectViewController", "navigationControllerSupportedInterfaceOrientations"]
+- ["C7MemoTra25ImageSelectViewController", "photoEditor"]
+- ["C7MemoTra25ImageSelectViewController", "photoEditorCanceled"]
+- !private ["C7MemoTra25ImageSelectViewController", "present"]
+- !private ["C7MemoTra25ImageSelectViewController", "storyboard"]
+- ["C7MemoTra25ImageSelectViewController", "viewDidLoad"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Ps13IndexableBase", "Index"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "SubSequence"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "subscript"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- ["CSo7NSCoder", "deinit"]
+- !private ["PSo8NSCoding", "AdobeUXImageEditorViewController"]
+- ["PSo8NSCoding", "CameraButton"]
+- !private ["PSo8NSCoding", "DispatchQueue"]
+- ["PSo8NSCoding", "LibraryButton"]
+- !private ["PSo8NSCoding", "UIImagePickerController"]
+- !private ["PSo8NSCoding", "UIImagePickerControllerOriginalImage"]
+- !private ["PSo8NSCoding", "UIImagePickerControllerSourceType"]
+- !private ["PSo8NSCoding", "delegate"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "dismiss"]
+- !private ["PSo8NSCoding", "image"]
+- ["PSo8NSCoding", "imagePickerController"]
+- ["PSo8NSCoding", "imagePickerControllerDidCancel"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isSourceTypeAvailable"]
+- ["PSo8NSCoding", "navigationController"]
+- ["PSo8NSCoding", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo8NSCoding", "navigationControllerSupportedInterfaceOrientations"]
+- ["PSo8NSCoding", "photoEditor"]
+- ["PSo8NSCoding", "photoEditorCanceled"]
+- !private ["PSo8NSCoding", "present"]
+- !private ["PSo8NSCoding", "sourceType"]
+- !private ["PSo8NSCoding", "storyboard"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "AdobeUXImageEditorViewController"]
+- ["PSo26NSExtensionRequestHandling", "CameraButton"]
+- !private ["PSo26NSExtensionRequestHandling", "DispatchQueue"]
+- ["PSo26NSExtensionRequestHandling", "LibraryButton"]
+- !private ["PSo26NSExtensionRequestHandling", "UIImagePickerController"]
+- !private ["PSo26NSExtensionRequestHandling", "UIImagePickerControllerOriginalImage"]
+- !private ["PSo26NSExtensionRequestHandling", "UIImagePickerControllerSourceType"]
+- !private ["PSo26NSExtensionRequestHandling", "delegate"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "dismiss"]
+- !private ["PSo26NSExtensionRequestHandling", "image"]
+- ["PSo26NSExtensionRequestHandling", "imagePickerController"]
+- ["PSo26NSExtensionRequestHandling", "imagePickerControllerDidCancel"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "isSourceTypeAvailable"]
+- ["PSo26NSExtensionRequestHandling", "navigationController"]
+- ["PSo26NSExtensionRequestHandling", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo26NSExtensionRequestHandling", "navigationControllerSupportedInterfaceOrientations"]
+- ["PSo26NSExtensionRequestHandling", "photoEditor"]
+- ["PSo26NSExtensionRequestHandling", "photoEditorCanceled"]
+- !private ["PSo26NSExtensionRequestHandling", "present"]
+- !private ["PSo26NSExtensionRequestHandling", "sourceType"]
+- !private ["PSo26NSExtensionRequestHandling", "storyboard"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "AdobeUXImageEditorViewController"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "CameraButton"]
+- !private ["CSo8NSObject", "DispatchQueue"]
+- ["CSo8NSObject", "LibraryButton"]
+- !private ["CSo8NSObject", "PostViewController"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIImage"]
+- ["CSo8NSObject", "UIImagePickerController"]
+- !private ["CSo8NSObject", "UIImagePickerControllerOriginalImage"]
+- !private ["CSo8NSObject", "UIImagePickerControllerSourceType"]
+- !private ["CSo8NSObject", "async"]
+- !private ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "dismiss"]
+- !private ["CSo8NSObject", "image"]
+- ["CSo8NSObject", "imagePickerController"]
+- ["CSo8NSObject", "imagePickerControllerDidCancel"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "instantiateViewController"]
+- !private ["CSo8NSObject", "isSourceTypeAvailable"]
+- !private ["CSo8NSObject", "main"]
+- ["CSo8NSObject", "navigationController"]
+- ["CSo8NSObject", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["CSo8NSObject", "navigationControllerSupportedInterfaceOrientations"]
+- ["CSo8NSObject", "photoEditor"]
+- ["CSo8NSObject", "photoEditorCanceled"]
+- !private ["CSo8NSObject", "present"]
+- !private ["CSo8NSObject", "sourceType"]
+- !private ["CSo8NSObject", "storyboard"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "AdobeUXImageEditorViewController"]
+- ["PSo16NSObjectProtocol", "CameraButton"]
+- !private ["PSo16NSObjectProtocol", "DispatchQueue"]
+- ["PSo16NSObjectProtocol", "LibraryButton"]
+- !private ["PSo16NSObjectProtocol", "UIImagePickerController"]
+- !private ["PSo16NSObjectProtocol", "UIImagePickerControllerOriginalImage"]
+- !private ["PSo16NSObjectProtocol", "UIImagePickerControllerSourceType"]
+- !private ["PSo16NSObjectProtocol", "async"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "dismiss"]
+- !private ["PSo16NSObjectProtocol", "image"]
+- ["PSo16NSObjectProtocol", "imagePickerController"]
+- ["PSo16NSObjectProtocol", "imagePickerControllerDidCancel"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "instantiateViewController"]
+- !private ["PSo16NSObjectProtocol", "isSourceTypeAvailable"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- ["PSo16NSObjectProtocol", "navigationController"]
+- ["PSo16NSObjectProtocol", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo16NSObjectProtocol", "navigationControllerSupportedInterfaceOrientations"]
+- ["PSo16NSObjectProtocol", "photoEditor"]
+- ["PSo16NSObjectProtocol", "photoEditorCanceled"]
+- !private ["PSo16NSObjectProtocol", "present"]
+- !private ["PSo16NSObjectProtocol", "sourceType"]
+- !private ["PSo16NSObjectProtocol", "storyboard"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo9OS_object", "async"]
+- !private ["CSo9OS_object", "main"]
+- ["Sq", "deinit"]
+- ["C7MemoTra18PostViewController", "deinit"]
+- !private ["C7MemoTra18PostViewController", "image"]
+- !private ["Ps16RawRepresentable", "camera"]
+- !private ["Ps16RawRepresentable", "photoLibrary"]
+- !private ["P10RealmSwift17RealmOptionalType", "_getBuiltinLogicValue"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Index"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "SubSequence"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "Iterator"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo21UIAppearanceContainer", "AdobeUXImageEditorViewController"]
+- ["PSo21UIAppearanceContainer", "CameraButton"]
+- !private ["PSo21UIAppearanceContainer", "DispatchQueue"]
+- ["PSo21UIAppearanceContainer", "LibraryButton"]
+- !private ["PSo21UIAppearanceContainer", "UIImagePickerController"]
+- !private ["PSo21UIAppearanceContainer", "UIImagePickerControllerOriginalImage"]
+- !private ["PSo21UIAppearanceContainer", "UIImagePickerControllerSourceType"]
+- !private ["PSo21UIAppearanceContainer", "delegate"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "dismiss"]
+- !private ["PSo21UIAppearanceContainer", "image"]
+- ["PSo21UIAppearanceContainer", "imagePickerController"]
+- ["PSo21UIAppearanceContainer", "imagePickerControllerDidCancel"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "isSourceTypeAvailable"]
+- ["PSo21UIAppearanceContainer", "navigationController"]
+- ["PSo21UIAppearanceContainer", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo21UIAppearanceContainer", "navigationControllerSupportedInterfaceOrientations"]
+- ["PSo21UIAppearanceContainer", "photoEditor"]
+- ["PSo21UIAppearanceContainer", "photoEditorCanceled"]
+- !private ["PSo21UIAppearanceContainer", "present"]
+- !private ["PSo21UIAppearanceContainer", "sourceType"]
+- !private ["PSo21UIAppearanceContainer", "storyboard"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "AdobeUXImageEditorViewController"]
+- ["PSo18UIContentContainer", "CameraButton"]
+- !private ["PSo18UIContentContainer", "DispatchQueue"]
+- ["PSo18UIContentContainer", "LibraryButton"]
+- !private ["PSo18UIContentContainer", "UIImagePickerController"]
+- !private ["PSo18UIContentContainer", "UIImagePickerControllerOriginalImage"]
+- !private ["PSo18UIContentContainer", "UIImagePickerControllerSourceType"]
+- !private ["PSo18UIContentContainer", "delegate"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "dismiss"]
+- !private ["PSo18UIContentContainer", "image"]
+- ["PSo18UIContentContainer", "imagePickerController"]
+- ["PSo18UIContentContainer", "imagePickerControllerDidCancel"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "isSourceTypeAvailable"]
+- ["PSo18UIContentContainer", "navigationController"]
+- ["PSo18UIContentContainer", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo18UIContentContainer", "navigationControllerSupportedInterfaceOrientations"]
+- ["PSo18UIContentContainer", "photoEditor"]
+- ["PSo18UIContentContainer", "photoEditorCanceled"]
+- !private ["PSo18UIContentContainer", "present"]
+- !private ["PSo18UIContentContainer", "sourceType"]
+- !private ["PSo18UIContentContainer", "storyboard"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo18UIFocusEnvironment", "AdobeUXImageEditorViewController"]
+- ["PSo18UIFocusEnvironment", "CameraButton"]
+- !private ["PSo18UIFocusEnvironment", "DispatchQueue"]
+- ["PSo18UIFocusEnvironment", "LibraryButton"]
+- !private ["PSo18UIFocusEnvironment", "UIImagePickerController"]
+- !private ["PSo18UIFocusEnvironment", "UIImagePickerControllerOriginalImage"]
+- !private ["PSo18UIFocusEnvironment", "UIImagePickerControllerSourceType"]
+- !private ["PSo18UIFocusEnvironment", "delegate"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "dismiss"]
+- !private ["PSo18UIFocusEnvironment", "image"]
+- ["PSo18UIFocusEnvironment", "imagePickerController"]
+- ["PSo18UIFocusEnvironment", "imagePickerControllerDidCancel"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "isSourceTypeAvailable"]
+- ["PSo18UIFocusEnvironment", "navigationController"]
+- ["PSo18UIFocusEnvironment", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo18UIFocusEnvironment", "navigationControllerSupportedInterfaceOrientations"]
+- ["PSo18UIFocusEnvironment", "photoEditor"]
+- ["PSo18UIFocusEnvironment", "photoEditorCanceled"]
+- !private ["PSo18UIFocusEnvironment", "present"]
+- !private ["PSo18UIFocusEnvironment", "sourceType"]
+- !private ["PSo18UIFocusEnvironment", "storyboard"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["CSo7UIImage", "deinit"]
+- ["CSo23UIImagePickerController", "deinit"]
+- !private ["CSo23UIImagePickerController", "delegate"]
+- !private ["CSo23UIImagePickerController", "dismiss"]
+- !private ["CSo23UIImagePickerController", "init"]
+- !private ["CSo23UIImagePickerController", "isSourceTypeAvailable"]
+- !private ["CSo23UIImagePickerController", "sourceType"]
+- !private ["PSo31UIImagePickerControllerDelegate", "AdobeUXImageEditorViewController"]
+- !private ["PSo31UIImagePickerControllerDelegate", "DispatchQueue"]
+- !private ["PSo31UIImagePickerControllerDelegate", "UIImagePickerController"]
+- !private ["PSo31UIImagePickerControllerDelegate", "UIImagePickerControllerOriginalImage"]
+- !private ["PSo31UIImagePickerControllerDelegate", "UIImagePickerControllerSourceType"]
+- ["PSo31UIImagePickerControllerDelegate", "imagePickerController"]
+- ["PSo31UIImagePickerControllerDelegate", "imagePickerControllerDidCancel"]
+- ["PSo31UIImagePickerControllerDelegate", "navigationController"]
+- ["PSo31UIImagePickerControllerDelegate", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo31UIImagePickerControllerDelegate", "navigationControllerSupportedInterfaceOrientations"]
+- ["PSo31UIImagePickerControllerDelegate", "photoEditor"]
+- ["PSo31UIImagePickerControllerDelegate", "photoEditorCanceled"]
+- !private ["PSo31UIImagePickerControllerDelegate", "present"]
+- !private ["PSo31UIImagePickerControllerDelegate", "storyboard"]
+- ["PSo31UIImagePickerControllerDelegate", ""]
+- !private ["OSC33UIImagePickerControllerSourceType", "camera"]
+- ["OSC33UIImagePickerControllerSourceType", "deinit"]
+- !private ["OSC33UIImagePickerControllerSourceType", "photoLibrary"]
+- !private ["CSo22UINavigationController", "delegate"]
+- !private ["CSo22UINavigationController", "dismiss"]
+- !private ["CSo22UINavigationController", "init"]
+- !private ["CSo22UINavigationController", "isSourceTypeAvailable"]
+- !private ["CSo22UINavigationController", "sourceType"]
+- !private ["PSo30UINavigationControllerDelegate", "AdobeUXImageEditorViewController"]
+- !private ["PSo30UINavigationControllerDelegate", "DispatchQueue"]
+- !private ["PSo30UINavigationControllerDelegate", "UIImagePickerController"]
+- !private ["PSo30UINavigationControllerDelegate", "UIImagePickerControllerOriginalImage"]
+- !private ["PSo30UINavigationControllerDelegate", "UIImagePickerControllerSourceType"]
+- ["PSo30UINavigationControllerDelegate", "imagePickerController"]
+- ["PSo30UINavigationControllerDelegate", "imagePickerControllerDidCancel"]
+- ["PSo30UINavigationControllerDelegate", "navigationController"]
+- ["PSo30UINavigationControllerDelegate", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo30UINavigationControllerDelegate", "navigationControllerSupportedInterfaceOrientations"]
+- ["PSo30UINavigationControllerDelegate", "photoEditor"]
+- ["PSo30UINavigationControllerDelegate", "photoEditorCanceled"]
+- !private ["PSo30UINavigationControllerDelegate", "present"]
+- !private ["PSo30UINavigationControllerDelegate", "storyboard"]
+- ["PSo30UINavigationControllerDelegate", ""]
+- ["CSo11UIResponder", "AdobeUXImageEditorViewController"]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "CameraButton"]
+- !private ["CSo11UIResponder", "DispatchQueue"]
+- ["CSo11UIResponder", "LibraryButton"]
+- !private ["CSo11UIResponder", "PostViewController"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UIImage"]
+- ["CSo11UIResponder", "UIImagePickerController"]
+- !private ["CSo11UIResponder", "UIImagePickerControllerOriginalImage"]
+- !private ["CSo11UIResponder", "UIImagePickerControllerSourceType"]
+- !private ["CSo11UIResponder", "delegate"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- !private ["CSo11UIResponder", "dismiss"]
+- !private ["CSo11UIResponder", "image"]
+- ["CSo11UIResponder", "imagePickerController"]
+- ["CSo11UIResponder", "imagePickerControllerDidCancel"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "isSourceTypeAvailable"]
+- ["CSo11UIResponder", "navigationController"]
+- ["CSo11UIResponder", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["CSo11UIResponder", "navigationControllerSupportedInterfaceOrientations"]
+- ["CSo11UIResponder", "photoEditor"]
+- ["CSo11UIResponder", "photoEditorCanceled"]
+- !private ["CSo11UIResponder", "present"]
+- !private ["CSo11UIResponder", "sourceType"]
+- !private ["CSo11UIResponder", "storyboard"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "AdobeUXImageEditorViewController"]
+- ["PSo30UIResponderStandardEditActions", "CameraButton"]
+- !private ["PSo30UIResponderStandardEditActions", "DispatchQueue"]
+- ["PSo30UIResponderStandardEditActions", "LibraryButton"]
+- !private ["PSo30UIResponderStandardEditActions", "UIImagePickerController"]
+- !private ["PSo30UIResponderStandardEditActions", "UIImagePickerControllerOriginalImage"]
+- !private ["PSo30UIResponderStandardEditActions", "UIImagePickerControllerSourceType"]
+- !private ["PSo30UIResponderStandardEditActions", "delegate"]
+- ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- !private ["PSo30UIResponderStandardEditActions", "dismiss"]
+- !private ["PSo30UIResponderStandardEditActions", "image"]
+- ["PSo30UIResponderStandardEditActions", "imagePickerController"]
+- ["PSo30UIResponderStandardEditActions", "imagePickerControllerDidCancel"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "isSourceTypeAvailable"]
+- ["PSo30UIResponderStandardEditActions", "navigationController"]
+- ["PSo30UIResponderStandardEditActions", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo30UIResponderStandardEditActions", "navigationControllerSupportedInterfaceOrientations"]
+- ["PSo30UIResponderStandardEditActions", "photoEditor"]
+- ["PSo30UIResponderStandardEditActions", "photoEditorCanceled"]
+- !private ["PSo30UIResponderStandardEditActions", "present"]
+- !private ["PSo30UIResponderStandardEditActions", "sourceType"]
+- !private ["PSo30UIResponderStandardEditActions", "storyboard"]
+- ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo16UIStateRestoring", "AdobeUXImageEditorViewController"]
+- ["PSo16UIStateRestoring", "CameraButton"]
+- !private ["PSo16UIStateRestoring", "DispatchQueue"]
+- ["PSo16UIStateRestoring", "LibraryButton"]
+- !private ["PSo16UIStateRestoring", "UIImagePickerController"]
+- !private ["PSo16UIStateRestoring", "UIImagePickerControllerOriginalImage"]
+- !private ["PSo16UIStateRestoring", "UIImagePickerControllerSourceType"]
+- !private ["PSo16UIStateRestoring", "delegate"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "dismiss"]
+- !private ["PSo16UIStateRestoring", "image"]
+- ["PSo16UIStateRestoring", "imagePickerController"]
+- ["PSo16UIStateRestoring", "imagePickerControllerDidCancel"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "isSourceTypeAvailable"]
+- ["PSo16UIStateRestoring", "navigationController"]
+- ["PSo16UIStateRestoring", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo16UIStateRestoring", "navigationControllerSupportedInterfaceOrientations"]
+- ["PSo16UIStateRestoring", "photoEditor"]
+- ["PSo16UIStateRestoring", "photoEditorCanceled"]
+- !private ["PSo16UIStateRestoring", "present"]
+- !private ["PSo16UIStateRestoring", "sourceType"]
+- !private ["PSo16UIStateRestoring", "storyboard"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- ["CSo12UIStoryboard", "deinit"]
+- !private ["CSo12UIStoryboard", "instantiateViewController"]
+- !private ["PSo18UITraitEnvironment", "AdobeUXImageEditorViewController"]
+- ["PSo18UITraitEnvironment", "CameraButton"]
+- !private ["PSo18UITraitEnvironment", "DispatchQueue"]
+- ["PSo18UITraitEnvironment", "LibraryButton"]
+- !private ["PSo18UITraitEnvironment", "UIImagePickerController"]
+- !private ["PSo18UITraitEnvironment", "UIImagePickerControllerOriginalImage"]
+- !private ["PSo18UITraitEnvironment", "UIImagePickerControllerSourceType"]
+- !private ["PSo18UITraitEnvironment", "delegate"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "dismiss"]
+- !private ["PSo18UITraitEnvironment", "image"]
+- ["PSo18UITraitEnvironment", "imagePickerController"]
+- ["PSo18UITraitEnvironment", "imagePickerControllerDidCancel"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "isSourceTypeAvailable"]
+- ["PSo18UITraitEnvironment", "navigationController"]
+- ["PSo18UITraitEnvironment", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo18UITraitEnvironment", "navigationControllerSupportedInterfaceOrientations"]
+- ["PSo18UITraitEnvironment", "photoEditor"]
+- ["PSo18UITraitEnvironment", "photoEditorCanceled"]
+- !private ["PSo18UITraitEnvironment", "present"]
+- !private ["PSo18UITraitEnvironment", "sourceType"]
+- !private ["PSo18UITraitEnvironment", "storyboard"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo16UIViewController", "AdobeUXImageEditorViewController"]
+- ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "CameraButton"]
+- !private ["CSo16UIViewController", "DispatchQueue"]
+- ["CSo16UIViewController", "LibraryButton"]
+- !private ["CSo16UIViewController", "PostViewController"]
+- ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "UIImage"]
+- ["CSo16UIViewController", "UIImagePickerController"]
+- !private ["CSo16UIViewController", "UIImagePickerControllerOriginalImage"]
+- !private ["CSo16UIViewController", "UIImagePickerControllerSourceType"]
+- ["CSo16UIViewController", "deinit"]
+- !private ["CSo16UIViewController", "delegate"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- !private ["CSo16UIViewController", "dismiss"]
+- !private ["CSo16UIViewController", "image"]
+- ["CSo16UIViewController", "imagePickerController"]
+- ["CSo16UIViewController", "imagePickerControllerDidCancel"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "isSourceTypeAvailable"]
+- ["CSo16UIViewController", "navigationController"]
+- ["CSo16UIViewController", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["CSo16UIViewController", "navigationControllerSupportedInterfaceOrientations"]
+- ["CSo16UIViewController", "photoEditor"]
+- ["CSo16UIViewController", "photoEditorCanceled"]
+- !private ["CSo16UIViewController", "present"]
+- !private ["CSo16UIViewController", "sourceType"]
+- !private ["CSo16UIViewController", "storyboard"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "AdobeUXImageEditorViewController"]
+- ["Ps9_Hashable", "CameraButton"]
+- !private ["Ps9_Hashable", "DispatchQueue"]
+- ["Ps9_Hashable", "LibraryButton"]
+- !private ["Ps9_Hashable", "UIImagePickerController"]
+- !private ["Ps9_Hashable", "UIImagePickerControllerOriginalImage"]
+- !private ["Ps9_Hashable", "UIImagePickerControllerSourceType"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "async"]
+- !private ["Ps9_Hashable", "camera"]
+- !private ["Ps9_Hashable", "delegate"]
+- ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps9_Hashable", "dismiss"]
+- !private ["Ps9_Hashable", "image"]
+- ["Ps9_Hashable", "imagePickerController"]
+- ["Ps9_Hashable", "imagePickerControllerDidCancel"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "instantiateViewController"]
+- !private ["Ps9_Hashable", "isSourceTypeAvailable"]
+- !private ["Ps9_Hashable", "main"]
+- ["Ps9_Hashable", "navigationController"]
+- ["Ps9_Hashable", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps9_Hashable", "navigationControllerSupportedInterfaceOrientations"]
+- ["Ps9_Hashable", "photoEditor"]
+- ["Ps9_Hashable", "photoEditorCanceled"]
+- !private ["Ps9_Hashable", "photoLibrary"]
+- !private ["Ps9_Hashable", "present"]
+- !private ["Ps9_Hashable", "sourceType"]
+- !private ["Ps9_Hashable", "storyboard"]
+- ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- ["Vs26_OptionalNilComparisonType", "deinit"]
+depends-nominal:
+- "CSo32AdobeUXImageEditorViewController"
+- "PSo40AdobeUXImageEditorViewControllerDelegate"
+- "Ps9AnyObject"
+- "Sb"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- !private "CSo14DispatchObject"
+- "CSo13DispatchQueue"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "C7MemoTra25ImageSelectViewController"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- !private "Ps16IteratorProtocol"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo9OS_object"
+- "Sq"
+- "C7MemoTra18PostViewController"
+- !private "Ps16RawRepresentable"
+- !private "P10RealmSwift17RealmOptionalType"
+- !private "Ps8Sequence"
+- !private "Vs5Slice"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- "CSo7UIImage"
+- "CSo23UIImagePickerController"
+- "PSo31UIImagePickerControllerDelegate"
+- "OSC33UIImagePickerControllerSourceType"
+- !private "CSo22UINavigationController"
+- "PSo30UINavigationControllerDelegate"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- "CSo12UIStoryboard"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- "Vs26_OptionalNilComparisonType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/MemoTra-Bridging-Header.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeUXInAppPurchase.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeUXAuthManager.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeUXAuthDelegate.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeNetworkStatus.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeNetworkHTTPAsyncRequest.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeNetworkError.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeError.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeCreativeSDKVersion.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeAuthUserProfile.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeAuthError.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeCreativeSDKCore.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Modules/module.modulemap"
+- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeImageEditorLegacySDKCompatibility.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeImageEditorCustomization+Compatibility.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeUXImageEditorViewController+Compatibility.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeUXImageEditorViewController+InAppPurchase.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeImageEditorSession.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeImageEditorProduct.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeImageEditorCustomization.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeImageEditorContext.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeImageEditorOpenGLManager.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeUXImageEditorViewController.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeCreativeSDKImage.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Modules/module.modulemap"
+- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncCredential.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/Realm/Realm.framework/Modules/module.modulemap"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVRadialGradientLayer.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressAnimatedView.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Modules/module.modulemap"
+interface-hash: "d7f0c10b340e6cf1969f0f81962b8e89"
