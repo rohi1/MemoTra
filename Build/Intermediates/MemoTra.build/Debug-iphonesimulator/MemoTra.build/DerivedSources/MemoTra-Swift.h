@@ -114,6 +114,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import Foundation;
 @import CoreGraphics;
 @import AdobeCreativeSDKImage;
+@import ObjectiveC;
 @import RealmSwift;
 #endif
 
@@ -173,6 +174,40 @@ SWIFT_CLASS("_TtC7MemoTra25ImageSelectViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+SWIFT_CLASS("_TtC7MemoTra24MainTabBarViewController")
+@interface MainTabBarViewController : UITabBarController
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UILabel;
+@class UIImageView;
+@class UITextView;
+
+SWIFT_CLASS("_TtC7MemoTra17MemoTableViewCell")
+@interface MemoTableViewCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified titleLabel;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified memoImageView;
+@property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified memoTextView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified tagLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified dateLabel;
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (void)setPostDataWithPostData:(PostData * _Nonnull)postData;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface NSObject (SWIFT_EXTENSION(MemoTra))
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull className;)
++ (NSString * _Nonnull)className;
+@property (nonatomic, readonly, copy) NSString * _Nonnull className;
+@end
+
 @class NSDate;
 @class NSData;
 @class RLMRealm;
@@ -195,9 +230,6 @@ SWIFT_CLASS("_TtC7MemoTra8PostData")
 @end
 
 @class UITextField;
-@class UIImageView;
-@class UITextView;
-@class UILabel;
 
 SWIFT_CLASS("_TtC7MemoTra17PostTableViewCell")
 @interface PostTableViewCell : UITableViewCell

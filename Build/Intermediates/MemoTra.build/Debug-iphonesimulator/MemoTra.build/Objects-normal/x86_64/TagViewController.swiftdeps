@@ -6,11 +6,11 @@ provides-nominal:
 provides-member:
 - ["C7MemoTra17TagViewController", ""]
 provides-dynamic-lookup:
-- "didReceiveMemoryWarning"
 - "viewDidLoad"
+- "didReceiveMemoryWarning"
 depends-top-level:
-- "TagViewController"
 - "UIViewController"
+- "TagViewController"
 depends-member:
 - ["Ps9AnyObject", "didReceiveMemoryWarning"]
 - !private ["Ps9AnyObject", "init"]

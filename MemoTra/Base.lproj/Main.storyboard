@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,7 +8,7 @@
         <!--Home-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController storyboardIdentifier="Home" title="Home" id="9pv-A4-QxB" customClass="HomeViewController" customModule="MemoTra" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" title="Home" id="9pv-A4-QxB" customClass="HomeViewController" customModule="MemoTra" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
@@ -37,7 +36,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="118" y="-580"/>
+            <point key="canvasLocation" x="-734" y="-464"/>
         </scene>
         <!--Post-->
         <scene sceneID="3sR-zt-V9O">
@@ -120,12 +119,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qyU-Bq-blz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="117.59999999999999" y="70.614692653673174"/>
+            <point key="canvasLocation" x="118" y="262"/>
         </scene>
         <!--Tag-->
         <scene sceneID="BY8-LV-Nwr">
             <objects>
-                <viewController storyboardIdentifier="Tag" title="Tag" id="DFt-bc-bMC" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TagViewController" title="Tag" id="DFt-bc-bMC" customClass="TagViewController" customModule="MemoTra" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6QI-3d-zvz"/>
                         <viewControllerLayoutGuide type="bottom" id="eRX-hn-3QB"/>
@@ -139,12 +138,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mGx-Vp-alE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1012" y="-1500"/>
+            <point key="canvasLocation" x="935" y="-464"/>
         </scene>
         <!--ImageSelect-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController storyboardIdentifier="ImageSelect" title="ImageSelect" id="8rJ-Kc-sve" customClass="ImageSelectViewController" customModule="MemoTra" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ImageSelectViewController" title="ImageSelect" id="8rJ-Kc-sve" customClass="ImageSelectViewController" customModule="MemoTra" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
                         <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
@@ -176,12 +175,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-778" y="-1198"/>
+            <point key="canvasLocation" x="118" y="-463"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Main Tab Bar View Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
-                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                <tabBarController id="49e-Tb-3d3" customClass="MainTabBarViewController" customModule="MemoTra" customModuleProvider="target" sceneMemberID="viewController">
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>

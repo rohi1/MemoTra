@@ -9,14 +9,18 @@
 /* Begin PBXBuildFile section */
 		133002BEC09EB825071BA5E4 /* Pods_MemoTra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DB18B1E53011634462FF834 /* Pods_MemoTra.framework */; };
 		6D49FB2E1DBF5B7F001B7252 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D49FB2D1DBF5B7F001B7252 /* AppDelegate.swift */; };
-		6D49FB301DBF5B7F001B7252 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D49FB2F1DBF5B7F001B7252 /* HomeViewController.swift */; };
-		6D49FB321DBF5B7F001B7252 /* ImageSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D49FB311DBF5B7F001B7252 /* ImageSelectViewController.swift */; };
 		6D49FB351DBF5B7F001B7252 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D49FB331DBF5B7F001B7252 /* Main.storyboard */; };
 		6D49FB371DBF5B7F001B7252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D49FB361DBF5B7F001B7252 /* Assets.xcassets */; };
 		6D49FB3A1DBF5B7F001B7252 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D49FB381DBF5B7F001B7252 /* LaunchScreen.storyboard */; };
-		6D49FB421DBF5D58001B7252 /* TagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D49FB411DBF5D58001B7252 /* TagViewController.swift */; };
-		6D49FB441DBF5EC3001B7252 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D49FB431DBF5EC3001B7252 /* PostViewController.swift */; };
-		6D51D4341DC432670069216C /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D51D4331DC432670069216C /* PostData.swift */; };
+		6D880B011DD88D5100F69CA3 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D880B001DD88D5100F69CA3 /* PostViewController.swift */; };
+		6D880B041DD88E0A00F69CA3 /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D880B031DD88E0A00F69CA3 /* NSObjectExtension.swift */; };
+		6D880B061DD8924800F69CA3 /* TagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D880B051DD8924800F69CA3 /* TagViewController.swift */; };
+		6D880B0B1DD892D700F69CA3 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D880B0A1DD892D700F69CA3 /* PostData.swift */; };
+		6D880B0E1DD892FB00F69CA3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D880B0C1DD892FB00F69CA3 /* HomeViewController.swift */; };
+		6D880B0F1DD892FB00F69CA3 /* ImageSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D880B0D1DD892FB00F69CA3 /* ImageSelectViewController.swift */; };
+		6D880B131DD8942D00F69CA3 /* MemoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D880B111DD8942D00F69CA3 /* MemoTableViewCell.swift */; };
+		6D880B141DD8942D00F69CA3 /* MemoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D880B121DD8942D00F69CA3 /* MemoTableViewCell.xib */; };
+		6D880B161DD8A35C00F69CA3 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D880B151DD8A35C00F69CA3 /* MainTabBarViewController.swift */; };
 		6DD32E901DC4A5BA0066E79F /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD32E8E1DC4A5BA0066E79F /* PostTableViewCell.swift */; };
 		6DD32E911DC4A5BA0066E79F /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DD32E8F1DC4A5BA0066E79F /* PostTableViewCell.xib */; };
 		6DFF721E1DBF858F00EFC371 /* AdobeCreativeSDKImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DFF721C1DBF858F00EFC371 /* AdobeCreativeSDKImage.framework */; };
@@ -58,15 +62,19 @@
 		5DB18B1E53011634462FF834 /* Pods_MemoTra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MemoTra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D49FB2A1DBF5B7F001B7252 /* MemoTra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoTra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D49FB2D1DBF5B7F001B7252 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6D49FB2F1DBF5B7F001B7252 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		6D49FB311DBF5B7F001B7252 /* ImageSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectViewController.swift; sourceTree = "<group>"; };
 		6D49FB341DBF5B7F001B7252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6D49FB361DBF5B7F001B7252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D49FB391DBF5B7F001B7252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D49FB3B1DBF5B7F001B7252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6D49FB411DBF5D58001B7252 /* TagViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagViewController.swift; sourceTree = "<group>"; };
-		6D49FB431DBF5EC3001B7252 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
-		6D51D4331DC432670069216C /* PostData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		6D880B001DD88D5100F69CA3 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		6D880B031DD88E0A00F69CA3 /* NSObjectExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectExtension.swift; sourceTree = "<group>"; };
+		6D880B051DD8924800F69CA3 /* TagViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagViewController.swift; sourceTree = "<group>"; };
+		6D880B0A1DD892D700F69CA3 /* PostData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		6D880B0C1DD892FB00F69CA3 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6D880B0D1DD892FB00F69CA3 /* ImageSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSelectViewController.swift; sourceTree = "<group>"; };
+		6D880B111DD8942D00F69CA3 /* MemoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoTableViewCell.swift; sourceTree = "<group>"; };
+		6D880B121DD8942D00F69CA3 /* MemoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MemoTableViewCell.xib; sourceTree = "<group>"; };
+		6D880B151DD8A35C00F69CA3 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		6DD32E8E1DC4A5BA0066E79F /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		6DD32E8F1DC4A5BA0066E79F /* PostTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
 		6DFF721B1DBF858F00EFC371 /* AdobeCreativeSDKCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdobeCreativeSDKCore.framework; sourceTree = "<group>"; };
@@ -133,23 +141,99 @@
 		6D49FB2C1DBF5B7F001B7252 /* MemoTra */ = {
 			isa = PBXGroup;
 			children = (
+				6D880AFF1DD88D1600F69CA3 /* ViewController */,
+				6D880AFE1DD88D0A00F69CA3 /* View */,
+				6D880AFD1DD88CFB00F69CA3 /* Model */,
+				6D880AFC1DD88CE400F69CA3 /* Common */,
 				6D49FB2D1DBF5B7F001B7252 /* AppDelegate.swift */,
 				6DFF723E1DBFB9F200EFC371 /* MemoTra-Bridging-Header.h */,
-				6D49FB2F1DBF5B7F001B7252 /* HomeViewController.swift */,
-				6D49FB311DBF5B7F001B7252 /* ImageSelectViewController.swift */,
-				6D51D4331DC432670069216C /* PostData.swift */,
-				6D49FB411DBF5D58001B7252 /* TagViewController.swift */,
-				6D49FB431DBF5EC3001B7252 /* PostViewController.swift */,
 				6DD32E8E1DC4A5BA0066E79F /* PostTableViewCell.swift */,
 				6DD32E8F1DC4A5BA0066E79F /* PostTableViewCell.xib */,
-				6D49FB331DBF5B7F001B7252 /* Main.storyboard */,
 				6D49FB361DBF5B7F001B7252 /* Assets.xcassets */,
-				6D49FB381DBF5B7F001B7252 /* LaunchScreen.storyboard */,
 				6D49FB3B1DBF5B7F001B7252 /* Info.plist */,
 				6DFF721B1DBF858F00EFC371 /* AdobeCreativeSDKCore.framework */,
 				6DFF721C1DBF858F00EFC371 /* AdobeCreativeSDKImage.framework */,
 			);
 			path = MemoTra;
+			sourceTree = "<group>";
+		};
+		6D880AFC1DD88CE400F69CA3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6D880B021DD88DDE00F69CA3 /* Extension */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		6D880AFD1DD88CFB00F69CA3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6D880B091DD892AD00F69CA3 /* Manager */,
+				6D880B081DD8929D00F69CA3 /* Entity */,
+				6D880B071DD8928100F69CA3 /* Fetcher */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6D880AFE1DD88D0A00F69CA3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6D880B101DD8936800F69CA3 /* TimeLine */,
+				6D49FB331DBF5B7F001B7252 /* Main.storyboard */,
+				6D49FB381DBF5B7F001B7252 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6D880AFF1DD88D1600F69CA3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6D880B0C1DD892FB00F69CA3 /* HomeViewController.swift */,
+				6D880B0D1DD892FB00F69CA3 /* ImageSelectViewController.swift */,
+				6D880B051DD8924800F69CA3 /* TagViewController.swift */,
+				6D880B001DD88D5100F69CA3 /* PostViewController.swift */,
+				6D880B151DD8A35C00F69CA3 /* MainTabBarViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6D880B021DD88DDE00F69CA3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6D880B031DD88E0A00F69CA3 /* NSObjectExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		6D880B071DD8928100F69CA3 /* Fetcher */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fetcher;
+			sourceTree = "<group>";
+		};
+		6D880B081DD8929D00F69CA3 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				6D880B0A1DD892D700F69CA3 /* PostData.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		6D880B091DD892AD00F69CA3 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		6D880B101DD8936800F69CA3 /* TimeLine */ = {
+			isa = PBXGroup;
+			children = (
+				6D880B111DD8942D00F69CA3 /* MemoTableViewCell.swift */,
+				6D880B121DD8942D00F69CA3 /* MemoTableViewCell.xib */,
+			);
+			path = TimeLine;
 			sourceTree = "<group>";
 		};
 		6E1F1B8F79CE14B75D671628 /* Frameworks */ = {
@@ -251,6 +335,7 @@
 				6D49FB371DBF5B7F001B7252 /* Assets.xcassets in Resources */,
 				6D49FB351DBF5B7F001B7252 /* Main.storyboard in Resources */,
 				6DD32E911DC4A5BA0066E79F /* PostTableViewCell.xib in Resources */,
+				6D880B141DD8942D00F69CA3 /* MemoTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,12 +408,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DD32E901DC4A5BA0066E79F /* PostTableViewCell.swift in Sources */,
-				6D49FB321DBF5B7F001B7252 /* ImageSelectViewController.swift in Sources */,
-				6D51D4341DC432670069216C /* PostData.swift in Sources */,
-				6D49FB421DBF5D58001B7252 /* TagViewController.swift in Sources */,
+				6D880B0B1DD892D700F69CA3 /* PostData.swift in Sources */,
+				6D880B011DD88D5100F69CA3 /* PostViewController.swift in Sources */,
 				6D49FB2E1DBF5B7F001B7252 /* AppDelegate.swift in Sources */,
-				6D49FB301DBF5B7F001B7252 /* HomeViewController.swift in Sources */,
-				6D49FB441DBF5EC3001B7252 /* PostViewController.swift in Sources */,
+				6D880B0F1DD892FB00F69CA3 /* ImageSelectViewController.swift in Sources */,
+				6D880B161DD8A35C00F69CA3 /* MainTabBarViewController.swift in Sources */,
+				6D880B061DD8924800F69CA3 /* TagViewController.swift in Sources */,
+				6D880B0E1DD892FB00F69CA3 /* HomeViewController.swift in Sources */,
+				6D880B131DD8942D00F69CA3 /* MemoTableViewCell.swift in Sources */,
+				6D880B041DD88E0A00F69CA3 /* NSObjectExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +429,7 @@
 				6D49FB341DBF5B7F001B7252 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		6D49FB381DBF5B7F001B7252 /* LaunchScreen.storyboard */ = {
@@ -349,6 +438,7 @@
 				6D49FB391DBF5B7F001B7252 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
