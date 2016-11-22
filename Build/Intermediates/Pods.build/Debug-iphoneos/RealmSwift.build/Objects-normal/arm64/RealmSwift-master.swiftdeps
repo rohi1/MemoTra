@@ -1,6 +1,6 @@
-version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
-options: "d215c7efc65d85c34d218745b12e69e4"
-build_time: [531139171, 276290000]
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "49cb18e5149e642cb783016b44f526b6"
+build_time: [532835201, 424349000]
 inputs:
   "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Aliases.swift": [9223372036854775807, 0]
   "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Pods/RealmSwift/RealmSwift/Error.swift": [9223372036854775807, 0]

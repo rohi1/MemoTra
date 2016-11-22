@@ -32,9 +32,9 @@ class MemoTableViewCell: UITableViewCell {
         // self.postImageView.image = postData.imageData
         let image: UIImage? = UIImage(data: postData.imageData as! Data)
         self.memoImageView.image = image
-        self.titleLabel.text = "\(postData.title)"
+        self.titleLabel.text = "Title:\(postData.title)"
         self.memoTextView.text = "\(postData.comment)"
-        self.tagLabel.text = "\(postData.category)"
+        self.tagLabel.text = "タグ:\(postData.category)"
         
         let formatter = DateFormatter()
         formatter.locale = NSLocale(localeIdentifier: "ja_JP") as Locale!

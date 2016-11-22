@@ -6,24 +6,24 @@ provides-nominal:
 provides-member:
 - ["C7MemoTra11AppDelegate", ""]
 provides-dynamic-lookup:
-- "applicationWillTerminate"
 - "application"
 - "applicationWillResignActive"
 - "window"
-- "applicationDidEnterBackground"
-- "applicationWillEnterForeground"
 - "applicationDidBecomeActive"
+- "applicationWillTerminate"
+- "applicationWillEnterForeground"
+- "applicationDidEnterBackground"
 depends-top-level:
+- "UIApplicationDelegate"
+- "UIApplication"
 - !private "StringLiteralType"
+- "Bool"
+- "UIWindow"
+- !private "BooleanLiteralType"
+- "UIApplicationLaunchOptionsKey"
+- !private "AdobeUXAuthManager"
 - "AppDelegate"
 - "UIResponder"
-- !private "AdobeUXAuthManager"
-- !private "BooleanLiteralType"
-- "UIWindow"
-- "UIApplicationDelegate"
-- "Bool"
-- "UIApplicationLaunchOptionsKey"
-- "UIApplication"
 depends-member:
 - !private ["CSo18AdobeUXAuthManager", "setAuthenticationParametersWithClientID"]
 - !private ["CSo18AdobeUXAuthManager", "shared"]

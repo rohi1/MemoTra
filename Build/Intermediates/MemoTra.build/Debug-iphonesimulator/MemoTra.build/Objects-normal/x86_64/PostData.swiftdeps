@@ -6,22 +6,22 @@ provides-nominal:
 provides-member:
 - ["C7MemoTra8PostData", ""]
 provides-dynamic-lookup:
-- "title"
 - "imageData"
 - "comment"
-- "date"
-- "primaryKey"
 - "id"
+- "primaryKey"
+- "title"
+- "date"
 - "category"
 depends-top-level:
+- "IntegerLiteralType"
 - "NSData"
-- "StringLiteralType"
-- "String"
-- "NSDate"
-- "Object"
 - "PostData"
 - "FloatLiteralType"
-- "IntegerLiteralType"
+- "NSDate"
+- "Object"
+- "StringLiteralType"
+- "String"
 depends-member:
 - ["Ps9AnyObject", "NSDate"]
 - ["Ps9AnyObject", "category"]
