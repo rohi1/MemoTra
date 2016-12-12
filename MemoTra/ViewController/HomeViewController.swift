@@ -19,10 +19,9 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         super.viewDidLoad()
         
         // テーブルセルのタップを無効にする
-        tableView.delegate = self   // 北島追加
-        tableView.dataSource = self // 北島追加
+        tableView.delegate = self   
+        tableView.dataSource = self
         tableView.allowsSelection = false
-        
         tableView.register(
             UINib(nibName: MemoTableViewCell.className, bundle: nil),
             forCellReuseIdentifier: MemoTableViewCell.className
@@ -49,7 +48,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         // Dispose of any resources that can be recreated.
     }
     
-    // TableView Delegate   // 以下、北島追加
+    // TableView Delegate   
     // セルの行数
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // Realmからデータ件数を取得（仮にhogeとします。）

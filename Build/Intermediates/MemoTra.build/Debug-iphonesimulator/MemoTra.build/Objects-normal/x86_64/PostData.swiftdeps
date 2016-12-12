@@ -1,96 +1,125 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
 - "PostData"
+- "IntObject"
 provides-nominal:
 - "C7MemoTra8PostData"
+- "C7MemoTra9IntObject"
 provides-member:
 - ["C7MemoTra8PostData", ""]
+- ["C7MemoTra9IntObject", ""]
 provides-dynamic-lookup:
-- "imageData"
-- "comment"
+- "title"
 - "id"
 - "primaryKey"
-- "title"
+- "imageData"
+- "comment"
 - "date"
-- "category"
+- "value"
 depends-top-level:
-- "IntegerLiteralType"
-- "NSData"
-- "PostData"
-- "FloatLiteralType"
-- "NSDate"
-- "Object"
-- "StringLiteralType"
 - "String"
+- "StringLiteralType"
+- "IntObject"
+- "Object"
+- "NSData"
+- "FloatLiteralType"
+- "List"
+- "PostData"
+- "IntegerLiteralType"
+- "NSDate"
 depends-member:
+- ["Ps9AnyObject", "List"]
 - ["Ps9AnyObject", "NSDate"]
-- ["Ps9AnyObject", "category"]
 - ["Ps9AnyObject", "comment"]
 - ["Ps9AnyObject", "date"]
 - ["Ps9AnyObject", "id"]
 - ["Ps9AnyObject", "imageData"]
 - ["Ps9AnyObject", "init"]
 - ["Ps9AnyObject", "primaryKey"]
+- ["Ps9AnyObject", "tagIdArray"]
 - ["Ps9AnyObject", "title"]
+- ["Ps9AnyObject", "value"]
 - ["Ps9AnyObject", ""]
+- ["Ps23BidirectionalCollection", "init"]
+- ["Ps22BidirectionalIndexable", "init"]
+- ["Ps7CVarArg", "List"]
 - ["Ps7CVarArg", "NSDate"]
-- ["Ps7CVarArg", "category"]
 - ["Ps7CVarArg", "comment"]
 - ["Ps7CVarArg", "date"]
 - ["Ps7CVarArg", "id"]
 - ["Ps7CVarArg", "imageData"]
 - ["Ps7CVarArg", "init"]
 - ["Ps7CVarArg", "primaryKey"]
+- ["Ps7CVarArg", "tagIdArray"]
 - ["Ps7CVarArg", "title"]
+- ["Ps7CVarArg", "value"]
 - ["Ps7CVarArg", ""]
+- ["Ps10Collection", "init"]
 - ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "List"]
 - ["Ps28CustomDebugStringConvertible", "NSDate"]
-- ["Ps28CustomDebugStringConvertible", "category"]
 - ["Ps28CustomDebugStringConvertible", "comment"]
 - ["Ps28CustomDebugStringConvertible", "date"]
 - ["Ps28CustomDebugStringConvertible", "id"]
 - ["Ps28CustomDebugStringConvertible", "imageData"]
 - ["Ps28CustomDebugStringConvertible", "init"]
 - ["Ps28CustomDebugStringConvertible", "primaryKey"]
+- ["Ps28CustomDebugStringConvertible", "tagIdArray"]
 - ["Ps28CustomDebugStringConvertible", "title"]
+- ["Ps28CustomDebugStringConvertible", "value"]
 - ["Ps28CustomDebugStringConvertible", ""]
 - ["Ps29CustomPlaygroundQuickLookable", "init"]
 - ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "List"]
 - ["Ps23CustomStringConvertible", "NSDate"]
-- ["Ps23CustomStringConvertible", "category"]
 - ["Ps23CustomStringConvertible", "comment"]
 - ["Ps23CustomStringConvertible", "date"]
 - ["Ps23CustomStringConvertible", "id"]
 - ["Ps23CustomStringConvertible", "imageData"]
 - ["Ps23CustomStringConvertible", "init"]
 - ["Ps23CustomStringConvertible", "primaryKey"]
+- ["Ps23CustomStringConvertible", "tagIdArray"]
 - ["Ps23CustomStringConvertible", "title"]
+- ["Ps23CustomStringConvertible", "value"]
 - ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "List"]
 - ["Ps9Equatable", "NSDate"]
-- ["Ps9Equatable", "category"]
 - ["Ps9Equatable", "comment"]
 - ["Ps9Equatable", "date"]
 - ["Ps9Equatable", "id"]
 - ["Ps9Equatable", "imageData"]
 - ["Ps9Equatable", "init"]
 - ["Ps9Equatable", "primaryKey"]
+- ["Ps9Equatable", "tagIdArray"]
 - ["Ps9Equatable", "title"]
+- ["Ps9Equatable", "value"]
 - ["Ps9Equatable", ""]
 - ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
 - ["Ps32ExpressibleByStringInterpolation", "init"]
 - ["Ps26ExpressibleByStringLiteral", "init"]
 - ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "List"]
 - ["Ps8Hashable", "NSDate"]
-- ["Ps8Hashable", "category"]
 - ["Ps8Hashable", "comment"]
 - ["Ps8Hashable", "date"]
 - ["Ps8Hashable", "id"]
 - ["Ps8Hashable", "imageData"]
 - ["Ps8Hashable", "init"]
 - ["Ps8Hashable", "primaryKey"]
+- ["Ps8Hashable", "tagIdArray"]
 - ["Ps8Hashable", "title"]
+- ["Ps8Hashable", "value"]
 - ["Ps8Hashable", ""]
+- ["Ps9Indexable", "init"]
+- ["Ps13IndexableBase", "init"]
 - ["Si", "deinit"]
+- ["C7MemoTra9IntObject", "deinit"]
+- ["C7MemoTra9IntObject", "init"]
+- ["C7MemoTra9IntObject", "value"]
+- ["Ps22LazyCollectionProtocol", "init"]
+- ["Ps20LazySequenceProtocol", "init"]
+- ["C10RealmSwift4List", "deinit"]
+- ["C10RealmSwift4List", "init"]
 - ["Ps25LosslessStringConvertible", "init"]
 - ["P10RealmSwift10MinMaxType", "init"]
 - ["Ps10MirrorPath", "init"]
@@ -98,34 +127,41 @@ depends-member:
 - ["PSo9NSCopying", "init"]
 - ["CSo6NSDate", "deinit"]
 - ["CSo6NSDate", "init"]
+- ["PSo17NSFastEnumeration", "init"]
 - ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "IntObject"]
+- ["CSo8NSObject", "List"]
 - ["CSo8NSObject", "NSData"]
 - ["CSo8NSObject", "NSDate"]
 - ["CSo8NSObject", "String"]
-- ["CSo8NSObject", "category"]
 - ["CSo8NSObject", "comment"]
 - ["CSo8NSObject", "date"]
 - ["CSo8NSObject", "id"]
 - ["CSo8NSObject", "imageData"]
 - ["CSo8NSObject", "init"]
 - ["CSo8NSObject", "primaryKey"]
+- ["CSo8NSObject", "tagIdArray"]
 - ["CSo8NSObject", "title"]
+- ["CSo8NSObject", "value"]
+- ["PSo16NSObjectProtocol", "List"]
 - ["PSo16NSObjectProtocol", "NSDate"]
-- ["PSo16NSObjectProtocol", "category"]
 - ["PSo16NSObjectProtocol", "comment"]
 - ["PSo16NSObjectProtocol", "date"]
 - ["PSo16NSObjectProtocol", "id"]
 - ["PSo16NSObjectProtocol", "imageData"]
 - ["PSo16NSObjectProtocol", "init"]
 - ["PSo16NSObjectProtocol", "primaryKey"]
+- ["PSo16NSObjectProtocol", "tagIdArray"]
 - ["PSo16NSObjectProtocol", "title"]
+- ["PSo16NSObjectProtocol", "value"]
 - ["PSo16NSObjectProtocol", ""]
 - ["PSo14NSSecureCoding", "init"]
 - ["CSo8NSString", "init"]
+- ["C10RealmSwift6Object", "IntObject"]
+- ["C10RealmSwift6Object", "List"]
 - ["C10RealmSwift6Object", "NSData"]
 - ["C10RealmSwift6Object", "NSDate"]
 - ["C10RealmSwift6Object", "String"]
-- ["C10RealmSwift6Object", "category"]
 - ["C10RealmSwift6Object", "comment"]
 - ["C10RealmSwift6Object", "date"]
 - ["C10RealmSwift6Object", "deinit"]
@@ -133,13 +169,16 @@ depends-member:
 - ["C10RealmSwift6Object", "imageData"]
 - ["C10RealmSwift6Object", "init"]
 - ["C10RealmSwift6Object", "primaryKey"]
+- ["C10RealmSwift6Object", "tagIdArray"]
 - ["C10RealmSwift6Object", "title"]
+- ["C10RealmSwift6Object", "value"]
 - ["C10RealmSwift6Object", ""]
 - ["Sq", "deinit"]
+- ["C7MemoTra8PostData", "IntObject"]
+- ["C7MemoTra8PostData", "List"]
 - ["C7MemoTra8PostData", "NSData"]
 - ["C7MemoTra8PostData", "NSDate"]
 - ["C7MemoTra8PostData", "String"]
-- ["C7MemoTra8PostData", "category"]
 - ["C7MemoTra8PostData", "comment"]
 - ["C7MemoTra8PostData", "date"]
 - ["C7MemoTra8PostData", "deinit"]
@@ -147,21 +186,31 @@ depends-member:
 - ["C7MemoTra8PostData", "imageData"]
 - ["C7MemoTra8PostData", "init"]
 - ["C7MemoTra8PostData", "primaryKey"]
+- ["C7MemoTra8PostData", "tagIdArray"]
 - ["C7MemoTra8PostData", "title"]
+- ["CSo13RLMObjectBase", "IntObject"]
+- ["CSo13RLMObjectBase", "List"]
 - ["CSo13RLMObjectBase", "NSData"]
 - ["CSo13RLMObjectBase", "NSDate"]
 - ["CSo13RLMObjectBase", "String"]
-- ["CSo13RLMObjectBase", "category"]
 - ["CSo13RLMObjectBase", "comment"]
 - ["CSo13RLMObjectBase", "date"]
 - ["CSo13RLMObjectBase", "id"]
 - ["CSo13RLMObjectBase", "imageData"]
 - ["CSo13RLMObjectBase", "init"]
 - ["CSo13RLMObjectBase", "primaryKey"]
+- ["CSo13RLMObjectBase", "tagIdArray"]
 - ["CSo13RLMObjectBase", "title"]
+- ["CSo13RLMObjectBase", "value"]
 - ["CSo15RLMObjectSchema", "deinit"]
 - ["CSo8RLMRealm", "deinit"]
 - ["CSo9RLMSchema", "deinit"]
+- ["Ps22RandomAccessCollection", "init"]
+- ["Ps21RandomAccessIndexable", "init"]
+- ["Ps26RangeReplaceableCollection", "init"]
+- ["Ps25RangeReplaceableIndexable", "init"]
+- ["P10RealmSwift15RealmCollection", "init"]
+- ["Ps8Sequence", "init"]
 - ["SS", "deinit"]
 - ["SS", "init"]
 - ["Ps16TextOutputStream", "init"]
@@ -171,20 +220,25 @@ depends-member:
 - ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
 - ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
 - ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "List"]
 - ["Ps9_Hashable", "NSDate"]
-- ["Ps9_Hashable", "category"]
 - ["Ps9_Hashable", "comment"]
 - ["Ps9_Hashable", "date"]
 - ["Ps9_Hashable", "id"]
 - ["Ps9_Hashable", "imageData"]
 - ["Ps9_Hashable", "init"]
 - ["Ps9_Hashable", "primaryKey"]
+- ["Ps9_Hashable", "tagIdArray"]
 - ["Ps9_Hashable", "title"]
+- ["Ps9_Hashable", "value"]
 - ["Ps9_Hashable", ""]
 - ["Ps21_ObjectiveCBridgeable", "init"]
 depends-nominal:
 - "Ps9AnyObject"
+- "Ps23BidirectionalCollection"
+- "Ps22BidirectionalIndexable"
 - "Ps7CVarArg"
+- "Ps10Collection"
 - "Ps10Comparable"
 - "Ps28CustomDebugStringConvertible"
 - "Ps29CustomPlaygroundQuickLookable"
@@ -196,13 +250,20 @@ depends-nominal:
 - "Ps26ExpressibleByStringLiteral"
 - "Ps33ExpressibleByUnicodeScalarLiteral"
 - "Ps8Hashable"
+- "Ps9Indexable"
+- "Ps13IndexableBase"
 - "Si"
+- "C7MemoTra9IntObject"
+- "Ps22LazyCollectionProtocol"
+- "Ps20LazySequenceProtocol"
+- "C10RealmSwift4List"
 - "Ps25LosslessStringConvertible"
 - "P10RealmSwift10MinMaxType"
 - "Ps10MirrorPath"
 - "PSo8NSCoding"
 - "PSo9NSCopying"
 - "CSo6NSDate"
+- "PSo17NSFastEnumeration"
 - "PSo16NSMutableCopying"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
@@ -215,6 +276,12 @@ depends-nominal:
 - "CSo15RLMObjectSchema"
 - "CSo8RLMRealm"
 - "CSo9RLMSchema"
+- "Ps22RandomAccessCollection"
+- "Ps21RandomAccessIndexable"
+- "Ps26RangeReplaceableCollection"
+- "Ps25RangeReplaceableIndexable"
+- "P10RealmSwift15RealmCollection"
+- "Ps8Sequence"
 - "SS"
 - "Ps16TextOutputStream"
 - "Ps20TextOutputStreamable"
@@ -227,7 +294,7 @@ depends-nominal:
 - "Ps21_ObjectiveCBridgeable"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/MemoTra-Bridging-Header.h"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeUXInAppPurchase.h"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeUXAuthManager.h"
@@ -241,13 +308,14 @@ depends-external:
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeAuthError.h"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeCreativeSDKCore.h"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Modules/module.modulemap"
-- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
-- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
-- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
-- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
-- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
-- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
-- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeImageEditorLegacySDKCompatibility.h"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeImageEditorCustomization+Compatibility.h"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeUXImageEditorViewController+Compatibility.h"
@@ -260,7 +328,7 @@ depends-external:
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeUXImageEditorViewController.h"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeCreativeSDKImage.h"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Modules/module.modulemap"
-- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64.swiftmodule"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
@@ -308,4 +376,4 @@ depends-external:
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Modules/module.modulemap"
-interface-hash: "6eca2505e8c7da4d16067e0d27cd699b"
+interface-hash: "dcfee3bae102d2125874ebe3fd167cae"

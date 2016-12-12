@@ -6,31 +6,31 @@ provides-nominal:
 provides-member:
 - ["C7MemoTra17PostTableViewCell", ""]
 provides-dynamic-lookup:
-- "CommentTextView"
-- "dateLabel"
-- "awakeFromNib"
-- "TitleText"
-- "setPostData"
 - "TagLabel"
+- "setPostData"
 - "postImageView"
+- "CommentTextView"
 - "setSelected"
+- "dateLabel"
+- "TitleText"
+- "awakeFromNib"
 depends-top-level:
-- !private "DateFormatter"
-- "UILabel"
-- !private "Data"
-- "UITextView"
+- !private "Date"
+- "UITextField"
 - "PostData"
-- !private "UIImage"
-- "UIImageView"
+- !private "Data"
+- "PostTableViewCell"
+- !private "Locale"
 - !private "String"
 - "UITableViewCell"
-- "UITextField"
-- "Bool"
-- !private "Locale"
-- !private "Date"
+- "UIImageView"
+- !private "UIImage"
+- "UILabel"
 - "AssignmentPrecedence"
+- "Bool"
 - "CastingPrecedence"
-- "PostTableViewCell"
+- !private "DateFormatter"
+- "UITextView"
 - !private "NSLocale"
 depends-member:
 - ["Ps9AnyObject", "CommentTextView"]
@@ -264,6 +264,7 @@ depends-member:
 - !private ["CSo8NSObject", "date"]
 - !private ["CSo8NSObject", "dateFormat"]
 - ["CSo8NSObject", "dateLabel"]
+- !private ["CSo8NSObject", "deinit"]
 - !private ["CSo8NSObject", "image"]
 - !private ["CSo8NSObject", "imageData"]
 - ["CSo8NSObject", "init"]
@@ -302,6 +303,7 @@ depends-member:
 - !private ["C10RealmSwift6Object", "category"]
 - !private ["C10RealmSwift6Object", "comment"]
 - !private ["C10RealmSwift6Object", "date"]
+- !private ["C10RealmSwift6Object", "deinit"]
 - !private ["C10RealmSwift6Object", "imageData"]
 - !private ["C10RealmSwift6Object", "title"]
 - ["Sq", "deinit"]
@@ -337,6 +339,7 @@ depends-member:
 - !private ["CSo13RLMObjectBase", "category"]
 - !private ["CSo13RLMObjectBase", "comment"]
 - !private ["CSo13RLMObjectBase", "date"]
+- !private ["CSo13RLMObjectBase", "deinit"]
 - !private ["CSo13RLMObjectBase", "imageData"]
 - !private ["CSo13RLMObjectBase", "title"]
 - ["SS", "deinit"]

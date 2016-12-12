@@ -24,7 +24,7 @@ class PostTableViewCell: UITableViewCell {
         self.postImageView.image = image
         self.TitleText.text = "\(postData.title)"
         self.CommentTextView.text = "\(postData.comment)"
-        self.TagLabel.text = "\(postData.category)"
+        //self.TagLabel.text = "\(tagData.title)"
         
         let formatter = DateFormatter()
         formatter.locale = NSLocale(localeIdentifier: "ja_JP") as Locale!

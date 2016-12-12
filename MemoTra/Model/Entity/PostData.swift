@@ -13,16 +13,18 @@ class PostData: Object {
     //日時
     dynamic var date = NSDate()
     
-    //カテゴリ
-    dynamic var category = ""
+    //配列を定義して入れる箱を用意しておく
+    var tagIdArray = List<IntObject>()
     
-   //画像
-
-    
-    //idをプリマリーキーとして設定
+       //idをプリマリーキーとして設定
     override static func primaryKey() -> String? {
         return "id"
     }
     dynamic  var imageData: NSData? = nil
 
 }
+//Int型の配列を作る
+class IntObject: Object {
+    dynamic var value = 0
+}
+

@@ -12,6 +12,7 @@
 		6D49FB351DBF5B7F001B7252 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D49FB331DBF5B7F001B7252 /* Main.storyboard */; };
 		6D49FB371DBF5B7F001B7252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D49FB361DBF5B7F001B7252 /* Assets.xcassets */; };
 		6D49FB3A1DBF5B7F001B7252 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D49FB381DBF5B7F001B7252 /* LaunchScreen.storyboard */; };
+		6D76D3131DE5ABA00094C9B7 /* TagData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D76D3121DE5ABA00094C9B7 /* TagData.swift */; };
 		6D880B011DD88D5100F69CA3 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D880B001DD88D5100F69CA3 /* PostViewController.swift */; };
 		6D880B041DD88E0A00F69CA3 /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D880B031DD88E0A00F69CA3 /* NSObjectExtension.swift */; };
 		6D880B061DD8924800F69CA3 /* TagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D880B051DD8924800F69CA3 /* TagViewController.swift */; };
@@ -66,6 +67,7 @@
 		6D49FB361DBF5B7F001B7252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D49FB391DBF5B7F001B7252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D49FB3B1DBF5B7F001B7252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D76D3121DE5ABA00094C9B7 /* TagData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TagData.swift; path = ../../View/TagData.swift; sourceTree = "<group>"; };
 		6D880B001DD88D5100F69CA3 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		6D880B031DD88E0A00F69CA3 /* NSObjectExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectExtension.swift; sourceTree = "<group>"; };
 		6D880B051DD8924800F69CA3 /* TagViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagViewController.swift; sourceTree = "<group>"; };
@@ -215,6 +217,7 @@
 		6D880B081DD8929D00F69CA3 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				6D76D3121DE5ABA00094C9B7 /* TagData.swift */,
 				6D880B0A1DD892D700F69CA3 /* PostData.swift */,
 			);
 			path = Entity;
@@ -415,6 +418,7 @@
 				6D880B161DD8A35C00F69CA3 /* MainTabBarViewController.swift in Sources */,
 				6D880B061DD8924800F69CA3 /* TagViewController.swift in Sources */,
 				6D880B0E1DD892FB00F69CA3 /* HomeViewController.swift in Sources */,
+				6D76D3131DE5ABA00094C9B7 /* TagData.swift in Sources */,
 				6D880B131DD8942D00F69CA3 /* MemoTableViewCell.swift in Sources */,
 				6D880B041DD88E0A00F69CA3 /* NSObjectExtension.swift in Sources */,
 			);

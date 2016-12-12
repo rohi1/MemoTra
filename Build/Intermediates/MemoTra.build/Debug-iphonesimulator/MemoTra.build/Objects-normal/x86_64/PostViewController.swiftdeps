@@ -6,40 +6,40 @@ provides-nominal:
 provides-member:
 - ["C7MemoTra18PostViewController", ""]
 provides-dynamic-lookup:
-- "SaveButton"
-- "imageView"
-- "didReceiveMemoryWarning"
-- "TagTextField"
-- "Comment"
-- "image"
-- "dissmissKeyboad"
-- "Cell"
+- "viewDidLoad"
+- "CancelButton"
 - "TitleTextField"
 - "realmDB"
-- "CancelButton"
-- "viewDidLoad"
+- "SaveButton"
+- "imageView"
+- "dissmissKeyboad"
+- "Comment"
+- "didReceiveMemoryWarning"
+- "Cell"
+- "image"
+- "TagTextField"
 depends-top-level:
-- "UIImage"
-- !private "SVProgressHUD"
-- !private "StringLiteralType"
-- !private "Realm"
 - !private "+"
-- !private "BooleanLiteralType"
-- "UIImageView"
-- "UITextField"
-- "UIViewController"
-- !private ">"
-- !private "Int"
 - !private "NSDate"
-- !private "NSData"
+- !private "StringLiteralType"
 - !private "UIImagePNGRepresentation"
-- "PostViewController"
 - !private "UITapGestureRecognizer"
-- "AnyObject"
-- "AssignmentPrecedence"
+- !private "NSData"
+- !private "Realm"
 - "PostData"
-- !private "CastingPrecedence"
+- !private "SVProgressHUD"
+- "UIViewController"
+- !private "BooleanLiteralType"
+- !private "Int"
+- "UIImageView"
 - "UITextView"
+- "PostViewController"
+- "UIImage"
+- "UITextField"
+- "AssignmentPrecedence"
+- !private "CastingPrecedence"
+- !private ">"
+- "AnyObject"
 depends-member:
 - !private ["P10RealmSwift11AddableType", "IntegerLiteralType"]
 - !private ["P10RealmSwift11AddableType", "Stride"]
@@ -47,8 +47,11 @@ depends-member:
 - ["Ps9AnyObject", "CancelButton"]
 - ["Ps9AnyObject", "Cell"]
 - ["Ps9AnyObject", "Comment"]
+- !private ["Ps9AnyObject", "Element"]
+- !private ["Ps9AnyObject", "Elements"]
 - !private ["Ps9AnyObject", "Index"]
 - !private ["Ps9AnyObject", "IndexDistance"]
+- !private ["Ps9AnyObject", "Iterator"]
 - !private ["Ps9AnyObject", "NSDate"]
 - ["Ps9AnyObject", "PostData"]
 - !private ["Ps9AnyObject", "Realm"]
@@ -62,7 +65,6 @@ depends-member:
 - !private ["Ps9AnyObject", "_Element"]
 - !private ["Ps9AnyObject", "add"]
 - !private ["Ps9AnyObject", "addGestureRecognizer"]
-- !private ["Ps9AnyObject", "category"]
 - !private ["Ps9AnyObject", "comment"]
 - !private ["Ps9AnyObject", "count"]
 - ["Ps9AnyObject", "didReceiveMemoryWarning"]
@@ -74,6 +76,7 @@ depends-member:
 - !private ["Ps9AnyObject", "imageData"]
 - ["Ps9AnyObject", "imageView"]
 - ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "map"]
 - !private ["Ps9AnyObject", "objects"]
 - ["Ps9AnyObject", "realmDB"]
 - !private ["Ps9AnyObject", "selectedViewController"]
@@ -92,6 +95,7 @@ depends-member:
 - !private ["Sa", "Index"]
 - !private ["Sa", "SubSequence"]
 - !private ["Sa", "subscript"]
+- !private ["Ps23BidirectionalCollection", "Elements"]
 - !private ["Ps23BidirectionalCollection", "Index"]
 - !private ["Ps23BidirectionalCollection", "IndexDistance"]
 - !private ["Ps23BidirectionalCollection", "Indices"]
@@ -100,8 +104,10 @@ depends-member:
 - !private ["Ps23BidirectionalCollection", "_Element"]
 - !private ["Ps23BidirectionalCollection", "count"]
 - !private ["Ps23BidirectionalCollection", "id"]
+- !private ["Ps23BidirectionalCollection", "map"]
 - !private ["Ps23BidirectionalCollection", "sorted"]
 - !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Ps22BidirectionalIndexable", "Elements"]
 - !private ["Ps22BidirectionalIndexable", "Index"]
 - !private ["Ps22BidirectionalIndexable", "IndexDistance"]
 - !private ["Ps22BidirectionalIndexable", "Indices"]
@@ -110,6 +116,7 @@ depends-member:
 - !private ["Ps22BidirectionalIndexable", "_Element"]
 - !private ["Ps22BidirectionalIndexable", "count"]
 - !private ["Ps22BidirectionalIndexable", "id"]
+- !private ["Ps22BidirectionalIndexable", "map"]
 - !private ["Ps22BidirectionalIndexable", "sorted"]
 - !private ["Ps22BidirectionalIndexable", "subscript"]
 - !private ["Vs18BidirectionalSlice", "Index"]
@@ -131,9 +138,11 @@ depends-member:
 - ["Ps7CVarArg", "CancelButton"]
 - ["Ps7CVarArg", "Cell"]
 - ["Ps7CVarArg", "Comment"]
+- !private ["Ps7CVarArg", "Elements"]
 - !private ["Ps7CVarArg", "Index"]
 - !private ["Ps7CVarArg", "IndexDistance"]
 - !private ["Ps7CVarArg", "IntegerLiteralType"]
+- !private ["Ps7CVarArg", "Iterator"]
 - !private ["Ps7CVarArg", "NSDate"]
 - ["Ps7CVarArg", "PostData"]
 - !private ["Ps7CVarArg", "Realm"]
@@ -148,7 +157,6 @@ depends-member:
 - !private ["Ps7CVarArg", "_DisabledRangeIndex"]
 - !private ["Ps7CVarArg", "_Element"]
 - !private ["Ps7CVarArg", "addGestureRecognizer"]
-- !private ["Ps7CVarArg", "category"]
 - !private ["Ps7CVarArg", "comment"]
 - !private ["Ps7CVarArg", "count"]
 - ["Ps7CVarArg", "didReceiveMemoryWarning"]
@@ -160,6 +168,7 @@ depends-member:
 - !private ["Ps7CVarArg", "imageData"]
 - ["Ps7CVarArg", "imageView"]
 - ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "map"]
 - ["Ps7CVarArg", "realmDB"]
 - !private ["Ps7CVarArg", "selectedViewController"]
 - !private ["Ps7CVarArg", "showSuccess"]
@@ -173,6 +182,7 @@ depends-member:
 - !private ["Ps7CVarArg", "viewControllers"]
 - ["Ps7CVarArg", "viewDidLoad"]
 - ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "Elements"]
 - !private ["Ps10Collection", "Index"]
 - !private ["Ps10Collection", "IndexDistance"]
 - !private ["Ps10Collection", "Indices"]
@@ -181,6 +191,7 @@ depends-member:
 - !private ["Ps10Collection", "_Element"]
 - !private ["Ps10Collection", "count"]
 - !private ["Ps10Collection", "id"]
+- !private ["Ps10Collection", "map"]
 - !private ["Ps10Collection", "sorted"]
 - !private ["Ps10Collection", "subscript"]
 - !private ["Ps10Comparable", "IntegerLiteralType"]
@@ -190,8 +201,10 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "CancelButton"]
 - ["Ps28CustomDebugStringConvertible", "Cell"]
 - ["Ps28CustomDebugStringConvertible", "Comment"]
+- !private ["Ps28CustomDebugStringConvertible", "Elements"]
 - !private ["Ps28CustomDebugStringConvertible", "Index"]
 - !private ["Ps28CustomDebugStringConvertible", "IndexDistance"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
 - !private ["Ps28CustomDebugStringConvertible", "NSDate"]
 - ["Ps28CustomDebugStringConvertible", "PostData"]
 - !private ["Ps28CustomDebugStringConvertible", "Realm"]
@@ -204,7 +217,6 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "UITapGestureRecognizer"]
 - !private ["Ps28CustomDebugStringConvertible", "_Element"]
 - !private ["Ps28CustomDebugStringConvertible", "addGestureRecognizer"]
-- !private ["Ps28CustomDebugStringConvertible", "category"]
 - !private ["Ps28CustomDebugStringConvertible", "comment"]
 - !private ["Ps28CustomDebugStringConvertible", "count"]
 - ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
@@ -216,10 +228,10 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "imageData"]
 - ["Ps28CustomDebugStringConvertible", "imageView"]
 - ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "map"]
 - ["Ps28CustomDebugStringConvertible", "realmDB"]
 - !private ["Ps28CustomDebugStringConvertible", "selectedViewController"]
 - !private ["Ps28CustomDebugStringConvertible", "showSuccess"]
-- ["Ps28CustomDebugStringConvertible", "some"]
 - !private ["Ps28CustomDebugStringConvertible", "sorted"]
 - !private ["Ps28CustomDebugStringConvertible", "subscript"]
 - !private ["Ps28CustomDebugStringConvertible", "tabBarController"]
@@ -230,7 +242,6 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "viewControllers"]
 - ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
 - ["Ps28CustomDebugStringConvertible", ""]
-- ["P10RealmSwift26CustomObjectiveCBridgeable", "some"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "IntegerLiteralType"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "Stride"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "_DisabledRangeIndex"]
@@ -244,14 +255,15 @@ depends-member:
 - !private ["Ps17CustomReflectable", "_DisabledRangeIndex"]
 - !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
 - !private ["Ps17CustomReflectable", "init"]
-- ["Ps17CustomReflectable", "some"]
 - !private ["Ps17CustomReflectable", "subscript"]
 - ["Ps23CustomStringConvertible", "CancelButton"]
 - ["Ps23CustomStringConvertible", "Cell"]
 - ["Ps23CustomStringConvertible", "Comment"]
+- !private ["Ps23CustomStringConvertible", "Elements"]
 - !private ["Ps23CustomStringConvertible", "Index"]
 - !private ["Ps23CustomStringConvertible", "IndexDistance"]
 - !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
 - !private ["Ps23CustomStringConvertible", "NSDate"]
 - ["Ps23CustomStringConvertible", "PostData"]
 - !private ["Ps23CustomStringConvertible", "Realm"]
@@ -267,7 +279,6 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "_Element"]
 - !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps23CustomStringConvertible", "addGestureRecognizer"]
-- !private ["Ps23CustomStringConvertible", "category"]
 - !private ["Ps23CustomStringConvertible", "comment"]
 - !private ["Ps23CustomStringConvertible", "count"]
 - ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
@@ -279,6 +290,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "imageData"]
 - ["Ps23CustomStringConvertible", "imageView"]
 - ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "map"]
 - ["Ps23CustomStringConvertible", "realmDB"]
 - !private ["Ps23CustomStringConvertible", "selectedViewController"]
 - !private ["Ps23CustomStringConvertible", "showSuccess"]
@@ -306,9 +318,11 @@ depends-member:
 - ["Ps9Equatable", "CancelButton"]
 - ["Ps9Equatable", "Cell"]
 - ["Ps9Equatable", "Comment"]
+- !private ["Ps9Equatable", "Elements"]
 - !private ["Ps9Equatable", "Index"]
 - !private ["Ps9Equatable", "IndexDistance"]
 - !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "Iterator"]
 - !private ["Ps9Equatable", "NSDate"]
 - ["Ps9Equatable", "PostData"]
 - !private ["Ps9Equatable", "Realm"]
@@ -325,7 +339,6 @@ depends-member:
 - !private ["Ps9Equatable", "_getBuiltinLogicValue"]
 - !private ["Ps9Equatable", "add"]
 - !private ["Ps9Equatable", "addGestureRecognizer"]
-- !private ["Ps9Equatable", "category"]
 - !private ["Ps9Equatable", "comment"]
 - !private ["Ps9Equatable", "count"]
 - ["Ps9Equatable", "didReceiveMemoryWarning"]
@@ -337,6 +350,7 @@ depends-member:
 - !private ["Ps9Equatable", "imageData"]
 - ["Ps9Equatable", "imageView"]
 - ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "map"]
 - !private ["Ps9Equatable", "objects"]
 - ["Ps9Equatable", "realmDB"]
 - !private ["Ps9Equatable", "selectedViewController"]
@@ -360,16 +374,17 @@ depends-member:
 - !private ["Ps27ExpressibleByIntegerLiteral", "IntegerLiteralType"]
 - !private ["Ps27ExpressibleByIntegerLiteral", "Stride"]
 - !private ["Ps27ExpressibleByIntegerLiteral", "_DisabledRangeIndex"]
-- ["Ps23ExpressibleByNilLiteral", "some"]
 - !private ["Ps32ExpressibleByStringInterpolation", "init"]
 - !private ["Ps26ExpressibleByStringLiteral", "init"]
 - !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
 - ["Ps8Hashable", "CancelButton"]
 - ["Ps8Hashable", "Cell"]
 - ["Ps8Hashable", "Comment"]
+- !private ["Ps8Hashable", "Elements"]
 - !private ["Ps8Hashable", "Index"]
 - !private ["Ps8Hashable", "IndexDistance"]
 - !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "Iterator"]
 - !private ["Ps8Hashable", "NSDate"]
 - ["Ps8Hashable", "PostData"]
 - !private ["Ps8Hashable", "Realm"]
@@ -385,7 +400,6 @@ depends-member:
 - !private ["Ps8Hashable", "_Element"]
 - !private ["Ps8Hashable", "_getBuiltinLogicValue"]
 - !private ["Ps8Hashable", "addGestureRecognizer"]
-- !private ["Ps8Hashable", "category"]
 - !private ["Ps8Hashable", "comment"]
 - !private ["Ps8Hashable", "count"]
 - ["Ps8Hashable", "didReceiveMemoryWarning"]
@@ -397,6 +411,7 @@ depends-member:
 - !private ["Ps8Hashable", "imageData"]
 - ["Ps8Hashable", "imageView"]
 - ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "map"]
 - ["Ps8Hashable", "realmDB"]
 - !private ["Ps8Hashable", "selectedViewController"]
 - !private ["Ps8Hashable", "showSuccess"]
@@ -411,6 +426,7 @@ depends-member:
 - ["Ps8Hashable", "viewDidLoad"]
 - ["Ps8Hashable", ""]
 - ["SQ", "deinit"]
+- !private ["Ps9Indexable", "Elements"]
 - !private ["Ps9Indexable", "Index"]
 - !private ["Ps9Indexable", "IndexDistance"]
 - !private ["Ps9Indexable", "Indices"]
@@ -419,8 +435,10 @@ depends-member:
 - !private ["Ps9Indexable", "_Element"]
 - !private ["Ps9Indexable", "count"]
 - !private ["Ps9Indexable", "id"]
+- !private ["Ps9Indexable", "map"]
 - !private ["Ps9Indexable", "sorted"]
 - !private ["Ps9Indexable", "subscript"]
+- !private ["Ps13IndexableBase", "Elements"]
 - !private ["Ps13IndexableBase", "Index"]
 - !private ["Ps13IndexableBase", "IndexDistance"]
 - !private ["Ps13IndexableBase", "Indices"]
@@ -429,6 +447,7 @@ depends-member:
 - !private ["Ps13IndexableBase", "_Element"]
 - !private ["Ps13IndexableBase", "count"]
 - !private ["Ps13IndexableBase", "id"]
+- !private ["Ps13IndexableBase", "map"]
 - !private ["Ps13IndexableBase", "sorted"]
 - !private ["Ps13IndexableBase", "subscript"]
 - !private ["Vs16IndexingIterator", "Element"]
@@ -443,18 +462,25 @@ depends-member:
 - !private ["Ps17IntegerArithmetic", "Stride"]
 - !private ["Ps17IntegerArithmetic", "_DisabledRangeIndex"]
 - !private ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps22LazyCollectionProtocol", "Elements"]
 - !private ["Ps22LazyCollectionProtocol", "Index"]
 - !private ["Ps22LazyCollectionProtocol", "IndexDistance"]
+- !private ["Ps22LazyCollectionProtocol", "Iterator"]
 - !private ["Ps22LazyCollectionProtocol", "SubSequence"]
 - !private ["Ps22LazyCollectionProtocol", "_Element"]
 - !private ["Ps22LazyCollectionProtocol", "count"]
+- !private ["Ps22LazyCollectionProtocol", "map"]
 - !private ["Ps22LazyCollectionProtocol", "sorted"]
 - !private ["Ps22LazyCollectionProtocol", "subscript"]
+- !private ["Vs29LazyMapRandomAccessCollection", "deinit"]
+- !private ["Ps20LazySequenceProtocol", "Elements"]
 - !private ["Ps20LazySequenceProtocol", "Index"]
 - !private ["Ps20LazySequenceProtocol", "IndexDistance"]
+- !private ["Ps20LazySequenceProtocol", "Iterator"]
 - !private ["Ps20LazySequenceProtocol", "SubSequence"]
 - !private ["Ps20LazySequenceProtocol", "_Element"]
 - !private ["Ps20LazySequenceProtocol", "count"]
+- !private ["Ps20LazySequenceProtocol", "map"]
 - !private ["Ps20LazySequenceProtocol", "sorted"]
 - !private ["Ps20LazySequenceProtocol", "subscript"]
 - !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
@@ -532,11 +558,14 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "viewControllers"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo17NSFastEnumeration", "Elements"]
 - !private ["PSo17NSFastEnumeration", "Index"]
 - !private ["PSo17NSFastEnumeration", "IndexDistance"]
+- !private ["PSo17NSFastEnumeration", "Iterator"]
 - !private ["PSo17NSFastEnumeration", "SubSequence"]
 - !private ["PSo17NSFastEnumeration", "_Element"]
 - !private ["PSo17NSFastEnumeration", "count"]
+- !private ["PSo17NSFastEnumeration", "map"]
 - !private ["PSo17NSFastEnumeration", "sorted"]
 - !private ["PSo17NSFastEnumeration", "subscript"]
 - !private ["PSo16NSMutableCopying", "init"]
@@ -544,9 +573,11 @@ depends-member:
 - ["CSo8NSObject", "CancelButton"]
 - ["CSo8NSObject", "Cell"]
 - ["CSo8NSObject", "Comment"]
+- !private ["CSo8NSObject", "Elements"]
 - !private ["CSo8NSObject", "Index"]
 - !private ["CSo8NSObject", "IndexDistance"]
 - !private ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "Iterator"]
 - !private ["CSo8NSObject", "NSData"]
 - !private ["CSo8NSObject", "NSDate"]
 - ["CSo8NSObject", "PostData"]
@@ -564,7 +595,6 @@ depends-member:
 - ["CSo8NSObject", "UITextView"]
 - !private ["CSo8NSObject", "_Element"]
 - !private ["CSo8NSObject", "addGestureRecognizer"]
-- !private ["CSo8NSObject", "category"]
 - !private ["CSo8NSObject", "comment"]
 - !private ["CSo8NSObject", "count"]
 - !private ["CSo8NSObject", "deinit"]
@@ -577,6 +607,7 @@ depends-member:
 - !private ["CSo8NSObject", "imageData"]
 - ["CSo8NSObject", "imageView"]
 - ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "map"]
 - ["CSo8NSObject", "realmDB"]
 - !private ["CSo8NSObject", "selectedViewController"]
 - !private ["CSo8NSObject", "showSuccess"]
@@ -592,8 +623,10 @@ depends-member:
 - ["PSo16NSObjectProtocol", "CancelButton"]
 - ["PSo16NSObjectProtocol", "Cell"]
 - ["PSo16NSObjectProtocol", "Comment"]
+- !private ["PSo16NSObjectProtocol", "Elements"]
 - !private ["PSo16NSObjectProtocol", "Index"]
 - !private ["PSo16NSObjectProtocol", "IndexDistance"]
+- !private ["PSo16NSObjectProtocol", "Iterator"]
 - !private ["PSo16NSObjectProtocol", "NSDate"]
 - ["PSo16NSObjectProtocol", "PostData"]
 - !private ["PSo16NSObjectProtocol", "Realm"]
@@ -606,7 +639,6 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "UITapGestureRecognizer"]
 - !private ["PSo16NSObjectProtocol", "_Element"]
 - !private ["PSo16NSObjectProtocol", "addGestureRecognizer"]
-- !private ["PSo16NSObjectProtocol", "category"]
 - !private ["PSo16NSObjectProtocol", "comment"]
 - !private ["PSo16NSObjectProtocol", "count"]
 - ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
@@ -618,6 +650,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "imageData"]
 - ["PSo16NSObjectProtocol", "imageView"]
 - ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "map"]
 - ["PSo16NSObjectProtocol", "realmDB"]
 - !private ["PSo16NSObjectProtocol", "selectedViewController"]
 - !private ["PSo16NSObjectProtocol", "showSuccess"]
@@ -634,7 +667,6 @@ depends-member:
 - !private ["PSo14NSSecureCoding", "init"]
 - !private ["PSo14NSSecureCoding", "timeIntervalSinceReferenceDate"]
 - !private ["CSo8NSString", "init"]
-- !private ["C10RealmSwift6Object", "category"]
 - !private ["C10RealmSwift6Object", "comment"]
 - !private ["C10RealmSwift6Object", "deinit"]
 - !private ["C10RealmSwift6Object", "id"]
@@ -642,8 +674,6 @@ depends-member:
 - ["C10RealmSwift6Object", "init"]
 - !private ["C10RealmSwift6Object", "title"]
 - ["Sq", "deinit"]
-- ["Sq", "some"]
-- !private ["C7MemoTra8PostData", "category"]
 - !private ["C7MemoTra8PostData", "comment"]
 - ["C7MemoTra8PostData", "deinit"]
 - !private ["C7MemoTra8PostData", "id"]
@@ -680,13 +710,14 @@ depends-member:
 - !private ["C7MemoTra18PostViewController", "tabBarController"]
 - !private ["C7MemoTra18PostViewController", "view"]
 - ["C7MemoTra18PostViewController", "viewDidLoad"]
-- !private ["CSo13RLMObjectBase", "category"]
+- !private ["C10RealmSwift11RLMIterator", "Element"]
 - !private ["CSo13RLMObjectBase", "comment"]
 - !private ["CSo13RLMObjectBase", "deinit"]
 - !private ["CSo13RLMObjectBase", "id"]
 - !private ["CSo13RLMObjectBase", "imageData"]
 - ["CSo13RLMObjectBase", "init"]
 - !private ["CSo13RLMObjectBase", "title"]
+- !private ["Ps22RandomAccessCollection", "Elements"]
 - !private ["Ps22RandomAccessCollection", "Index"]
 - !private ["Ps22RandomAccessCollection", "IndexDistance"]
 - !private ["Ps22RandomAccessCollection", "Indices"]
@@ -695,8 +726,10 @@ depends-member:
 - !private ["Ps22RandomAccessCollection", "_Element"]
 - !private ["Ps22RandomAccessCollection", "count"]
 - !private ["Ps22RandomAccessCollection", "id"]
+- !private ["Ps22RandomAccessCollection", "map"]
 - !private ["Ps22RandomAccessCollection", "sorted"]
 - !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps21RandomAccessIndexable", "Elements"]
 - !private ["Ps21RandomAccessIndexable", "Index"]
 - !private ["Ps21RandomAccessIndexable", "IndexDistance"]
 - !private ["Ps21RandomAccessIndexable", "Indices"]
@@ -705,6 +738,7 @@ depends-member:
 - !private ["Ps21RandomAccessIndexable", "_Element"]
 - !private ["Ps21RandomAccessIndexable", "count"]
 - !private ["Ps21RandomAccessIndexable", "id"]
+- !private ["Ps21RandomAccessIndexable", "map"]
 - !private ["Ps21RandomAccessIndexable", "sorted"]
 - !private ["Ps21RandomAccessIndexable", "subscript"]
 - !private ["Vs17RandomAccessSlice", "Index"]
@@ -725,28 +759,35 @@ depends-member:
 - !private ["C10RealmSwift5Realm", "init"]
 - !private ["C10RealmSwift5Realm", "objects"]
 - !private ["C10RealmSwift5Realm", "write"]
+- !private ["P10RealmSwift15RealmCollection", "Elements"]
 - !private ["P10RealmSwift15RealmCollection", "Index"]
 - !private ["P10RealmSwift15RealmCollection", "IndexDistance"]
+- !private ["P10RealmSwift15RealmCollection", "Iterator"]
 - !private ["P10RealmSwift15RealmCollection", "SubSequence"]
 - !private ["P10RealmSwift15RealmCollection", "_Element"]
 - !private ["P10RealmSwift15RealmCollection", "count"]
+- !private ["P10RealmSwift15RealmCollection", "map"]
 - !private ["P10RealmSwift15RealmCollection", "sorted"]
 - !private ["P10RealmSwift15RealmCollection", "subscript"]
 - !private ["P10RealmSwift17RealmOptionalType", "IntegerLiteralType"]
 - !private ["P10RealmSwift17RealmOptionalType", "Stride"]
 - !private ["P10RealmSwift17RealmOptionalType", "_DisabledRangeIndex"]
 - !private ["P10RealmSwift17RealmOptionalType", "_getBuiltinLogicValue"]
+- !private ["C10RealmSwift7Results", "Elements"]
 - !private ["C10RealmSwift7Results", "Index"]
 - !private ["C10RealmSwift7Results", "IndexDistance"]
+- !private ["C10RealmSwift7Results", "Iterator"]
 - !private ["C10RealmSwift7Results", "SubSequence"]
 - !private ["C10RealmSwift7Results", "_Element"]
 - !private ["C10RealmSwift7Results", "count"]
 - ["C10RealmSwift7Results", "deinit"]
+- !private ["C10RealmSwift7Results", "map"]
 - !private ["C10RealmSwift7Results", "sorted"]
 - !private ["C10RealmSwift7Results", "subscript"]
 - !private ["CSo13SVProgressHUD", "showSuccess"]
 - ["V10ObjectiveC8Selector", "deinit"]
 - !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Elements"]
 - !private ["Ps8Sequence", "Index"]
 - !private ["Ps8Sequence", "IndexDistance"]
 - !private ["Ps8Sequence", "Indices"]
@@ -755,6 +796,7 @@ depends-member:
 - !private ["Ps8Sequence", "_Element"]
 - !private ["Ps8Sequence", "count"]
 - !private ["Ps8Sequence", "id"]
+- !private ["Ps8Sequence", "map"]
 - !private ["Ps8Sequence", "sorted"]
 - !private ["Ps8Sequence", "subscript"]
 - !private ["Ps13SignedInteger", "IntegerLiteralType"]
@@ -1079,9 +1121,11 @@ depends-member:
 - ["Ps9_Hashable", "CancelButton"]
 - ["Ps9_Hashable", "Cell"]
 - ["Ps9_Hashable", "Comment"]
+- !private ["Ps9_Hashable", "Elements"]
 - !private ["Ps9_Hashable", "Index"]
 - !private ["Ps9_Hashable", "IndexDistance"]
 - !private ["Ps9_Hashable", "IntegerLiteralType"]
+- !private ["Ps9_Hashable", "Iterator"]
 - !private ["Ps9_Hashable", "NSDate"]
 - ["Ps9_Hashable", "PostData"]
 - !private ["Ps9_Hashable", "Realm"]
@@ -1097,7 +1141,6 @@ depends-member:
 - !private ["Ps9_Hashable", "_Element"]
 - !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
 - !private ["Ps9_Hashable", "addGestureRecognizer"]
-- !private ["Ps9_Hashable", "category"]
 - !private ["Ps9_Hashable", "comment"]
 - !private ["Ps9_Hashable", "count"]
 - ["Ps9_Hashable", "didReceiveMemoryWarning"]
@@ -1109,6 +1152,7 @@ depends-member:
 - !private ["Ps9_Hashable", "imageData"]
 - ["Ps9_Hashable", "imageView"]
 - ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "map"]
 - ["Ps9_Hashable", "realmDB"]
 - !private ["Ps9_Hashable", "selectedViewController"]
 - !private ["Ps9_Hashable", "showSuccess"]
@@ -1159,9 +1203,8 @@ depends-nominal:
 - !private "Ps10Collection"
 - !private "Ps10Comparable"
 - "Ps28CustomDebugStringConvertible"
-- "P10RealmSwift26CustomObjectiveCBridgeable"
 - !private "Ps29CustomPlaygroundQuickLookable"
-- "Ps17CustomReflectable"
+- !private "Ps17CustomReflectable"
 - "Ps23CustomStringConvertible"
 - !private "Vs27DefaultBidirectionalIndices"
 - !private "Vs26DefaultRandomAccessIndices"
@@ -1171,7 +1214,6 @@ depends-nominal:
 - !private "Ps27ExpressibleByBooleanLiteral"
 - !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
 - !private "Ps27ExpressibleByIntegerLiteral"
-- "Ps23ExpressibleByNilLiteral"
 - !private "Ps32ExpressibleByStringInterpolation"
 - !private "Ps26ExpressibleByStringLiteral"
 - !private "Ps33ExpressibleByUnicodeScalarLiteral"
@@ -1185,6 +1227,7 @@ depends-nominal:
 - !private "Ps17IntegerArithmetic"
 - !private "Ps16IteratorProtocol"
 - !private "Ps22LazyCollectionProtocol"
+- !private "Vs29LazyMapRandomAccessCollection"
 - !private "Ps20LazySequenceProtocol"
 - !private "Ps25LosslessStringConvertible"
 - !private "P10RealmSwift10MinMaxType"
@@ -1206,6 +1249,7 @@ depends-nominal:
 - "Sq"
 - "C7MemoTra8PostData"
 - "C7MemoTra18PostViewController"
+- !private "C10RealmSwift11RLMIterator"
 - "CSo13RLMObjectBase"
 - !private "Ps22RandomAccessCollection"
 - !private "Ps21RandomAccessIndexable"
@@ -1272,7 +1316,7 @@ depends-nominal:
 - !private "Ps11_Strideable"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/MemoTra-Bridging-Header.h"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeUXInAppPurchase.h"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeUXAuthManager.h"
@@ -1286,13 +1330,14 @@ depends-external:
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeAuthError.h"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeCreativeSDKCore.h"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Modules/module.modulemap"
-- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
-- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
-- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
-- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
-- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
-- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
-- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeImageEditorLegacySDKCompatibility.h"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeImageEditorCustomization+Compatibility.h"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeUXImageEditorViewController+Compatibility.h"
@@ -1305,7 +1350,7 @@ depends-external:
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeUXImageEditorViewController.h"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeCreativeSDKImage.h"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Modules/module.modulemap"
-- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64.swiftmodule"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"

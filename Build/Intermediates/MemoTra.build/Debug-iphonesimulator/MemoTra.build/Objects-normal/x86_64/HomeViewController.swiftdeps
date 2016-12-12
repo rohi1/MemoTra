@@ -6,36 +6,36 @@ provides-nominal:
 provides-member:
 - ["C7MemoTra18HomeViewController", ""]
 provides-dynamic-lookup:
+- "viewDidLoad"
+- "viewWillAppear"
+- "postArray"
 - "tableView"
 - "tableView"
 - "tableView"
 - "tableView"
 - "tableView"
 - "didReceiveMemoryWarning"
-- "viewWillAppear"
-- "viewDidLoad"
-- "postArray"
 depends-top-level:
-- !private "UINib"
-- !private "StringLiteralType"
-- "Bool"
-- "Int"
-- !private "Realm"
-- "UITableViewDataSource"
-- "UITableViewCell"
-- !private "BooleanLiteralType"
-- "UITableViewDelegate"
 - "IndexPath"
+- "Bool"
+- !private "StringLiteralType"
+- "UITableViewCell"
 - "UIViewController"
-- "CGFloat"
-- "HomeViewController"
+- !private "UINib"
 - !private "MemoTableViewCell"
+- !private "print"
+- "Int"
+- "HomeViewController"
+- !private "BooleanLiteralType"
+- "CGFloat"
+- "UITableView"
 - "PostData"
 - !private "UITableViewAutomaticDimension"
+- !private "Realm"
 - "AssignmentPrecedence"
-- !private "print"
+- "UITableViewDataSource"
 - "CastingPrecedence"
-- "UITableView"
+- "UITableViewDelegate"
 depends-member:
 - !private ["P10RealmSwift11AddableType", "IntegerLiteralType"]
 - !private ["P10RealmSwift11AddableType", "Stride"]
@@ -272,7 +272,6 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "sectionIndexTitles"]
 - ["Ps28CustomDebugStringConvertible", "sectionIndexTitlesForTableView"]
 - !private ["Ps28CustomDebugStringConvertible", "setPostData"]
-- ["Ps28CustomDebugStringConvertible", "some"]
 - !private ["Ps28CustomDebugStringConvertible", "subscript"]
 - ["Ps28CustomDebugStringConvertible", "tableView"]
 - ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
@@ -280,7 +279,6 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "viewForZoomingInScrollView"]
 - ["Ps28CustomDebugStringConvertible", "viewWillAppear"]
 - ["Ps28CustomDebugStringConvertible", ""]
-- ["P10RealmSwift26CustomObjectiveCBridgeable", "some"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "IntegerLiteralType"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "Stride"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "_DisabledRangeIndex"]
@@ -298,7 +296,6 @@ depends-member:
 - !private ["Ps17CustomReflectable", "count"]
 - !private ["Ps17CustomReflectable", "init"]
 - !private ["Ps17CustomReflectable", "row"]
-- ["Ps17CustomReflectable", "some"]
 - !private ["Ps17CustomReflectable", "subscript"]
 - !private ["Ps23CustomStringConvertible", "Elements"]
 - !private ["Ps23CustomStringConvertible", "Index"]
@@ -438,7 +435,6 @@ depends-member:
 - !private ["Ps27ExpressibleByIntegerLiteral", "IntegerLiteralType"]
 - !private ["Ps27ExpressibleByIntegerLiteral", "Stride"]
 - !private ["Ps27ExpressibleByIntegerLiteral", "_DisabledRangeIndex"]
-- ["Ps23ExpressibleByNilLiteral", "some"]
 - !private ["Ps32ExpressibleByStringInterpolation", "init"]
 - !private ["Ps26ExpressibleByStringLiteral", "init"]
 - !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
@@ -800,7 +796,6 @@ depends-member:
 - !private ["PSo14NSSecureCoding", "init"]
 - !private ["CSo8NSString", "init"]
 - ["Sq", "deinit"]
-- ["Sq", "some"]
 - ["C7MemoTra8PostData", "deinit"]
 - !private ["C10RealmSwift11RLMIterator", "Element"]
 - !private ["Ps22RandomAccessCollection", "Elements"]
@@ -1551,9 +1546,8 @@ depends-nominal:
 - !private "Ps10Comparable"
 - "VC10RealmSwift5Realm13Configuration"
 - "Ps28CustomDebugStringConvertible"
-- "P10RealmSwift26CustomObjectiveCBridgeable"
 - !private "Ps29CustomPlaygroundQuickLookable"
-- "Ps17CustomReflectable"
+- !private "Ps17CustomReflectable"
 - "Ps23CustomStringConvertible"
 - !private "Vs27DefaultBidirectionalIndices"
 - !private "Vs26DefaultRandomAccessIndices"
@@ -1562,7 +1556,6 @@ depends-nominal:
 - !private "Ps25ExpressibleByArrayLiteral"
 - !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
 - !private "Ps27ExpressibleByIntegerLiteral"
-- "Ps23ExpressibleByNilLiteral"
 - !private "Ps32ExpressibleByStringInterpolation"
 - !private "Ps26ExpressibleByStringLiteral"
 - !private "Ps33ExpressibleByUnicodeScalarLiteral"
@@ -1671,7 +1664,7 @@ depends-nominal:
 - !private "Ps11_Strideable"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/MemoTra-Bridging-Header.h"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeUXInAppPurchase.h"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeUXAuthManager.h"
@@ -1685,13 +1678,14 @@ depends-external:
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeAuthError.h"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Headers/AdobeCreativeSDKCore.h"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKCore.framework/Modules/module.modulemap"
-- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
-- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
-- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
-- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
-- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
-- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
-- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeImageEditorLegacySDKCompatibility.h"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeImageEditorCustomization+Compatibility.h"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeUXImageEditorViewController+Compatibility.h"
@@ -1704,7 +1698,7 @@ depends-external:
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeUXImageEditorViewController.h"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Headers/AdobeCreativeSDKImage.h"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/MemoTra/AdobeCreativeSDKImage.framework/Modules/module.modulemap"
-- "/Applications/Xcode8.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64.swiftmodule"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
 - "/Users/itouhiroaki/Documents/Xcode Project/MemoTra/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"

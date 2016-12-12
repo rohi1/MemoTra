@@ -34,7 +34,7 @@ class MemoTableViewCell: UITableViewCell {
         self.memoImageView.image = image
         self.titleLabel.text = "Title:\(postData.title)"
         self.memoTextView.text = "\(postData.comment)"
-        self.tagLabel.text = "タグ:\(postData.category)"
+    
         
         let formatter = DateFormatter()
         formatter.locale = NSLocale(localeIdentifier: "ja_JP") as Locale!
@@ -43,6 +43,10 @@ class MemoTableViewCell: UITableViewCell {
         let dateString:String = formatter.string(from: postData.date as Date)
         self.dateLabel.text = dateString
         
+    }
+    func setTagData(tagData: TagData) {
+        self.tagLabel.text = "タグ:\(tagData.title)"
+
     }
     
 }
